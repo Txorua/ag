@@ -5,6 +5,7 @@
 
 @import "compass/typography";
 @import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
 
 body {
   font-family: open-sans, sans-serif;
@@ -20,7 +21,7 @@ body {
 article {
   header {
     h1.page-header {
-      border-bottom: 0.1em solid green;
+      border-bottom: 0.1em solid #29286a;
     }
   }
 }
@@ -34,6 +35,9 @@ article {
 
 .container.main {
   @include rhythm(0,0,0,1);
+  img.banner {
+    @include single-box-shadow(3px,3px,5px);
+  }
   .block {
     @include border-radius(9px);
     border: solid 1px #777;
@@ -45,6 +49,7 @@ article {
       @include border-top-left-radius(9px);
       @include border-top-right-radius(9px);
       border-top: solid 1px #eee;
+      border-bottom: 0.1em solid #29286a;
       @include rhythm(1,0.2,0,0);
       padding-left: 0.5em;
     }
@@ -55,6 +60,19 @@ article {
           //content: ' ';
         }
       }
+    }
+  }
+  .block-system {
+    border: none;
+    h2 {
+      @include rhythm(0,0,0,0.5);
+      padding: 0;
+      @include border-radius(0);
+      border: none;
+      background-color: white;
+    }
+    .content {
+      padding: 0;
     }
   }
   #block-views-eventos-block-eventos {
@@ -77,7 +95,7 @@ article {
 .region.sidebar-first {
   .block {
     h2 {
-      display: none;
+      //display: none;
     }
   }
 }
