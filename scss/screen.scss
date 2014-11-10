@@ -1,0 +1,106 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/typography";
+@import "compass/css3/border-radius";
+
+body {
+  font-family: open-sans, sans-serif;
+}
+
+.list-unstyled li.leaf {
+  list-style-image: none;
+}
+
+#block-search-form {
+}
+
+.site-header {
+  nav[role=navigation] {
+    background-color: #29286a;
+    color: white;
+  }
+}
+
+.site-footer {
+  background-color: #29286a;
+  color: white;
+
+  .block {
+    h2 {
+      font-style: italic;
+      @include adjust-font-size-to(20px);
+    }
+  }
+
+  #udala {
+    header {
+      h1 {
+        margin: 0;
+        background-image: url(../images/logo-getariako-udala.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-height: 80px;
+      }
+    }
+  }
+}
+
+.region.sidebar-first {
+  .block {
+    h2 {
+      display: none;
+    }
+  }
+}
+
+article {
+  header {
+    h1.page-header {
+      border-bottom: 0.1em solid green;
+    }
+  }
+}
+
+.container.main {
+  @include rhythm(0,0,0,1);
+}
+
+main {
+  #block-views-noticias-block-noticias {
+    @include border-radius(9px);
+    border: solid 1px #777;
+    border-top: none;
+    h2 {
+      background-color: #eee;
+      color: #777;
+      @include border-top-left-radius(9px);
+      @include border-top-right-radius(9px);
+      border-top: solid 1px #eee;
+    }
+    .content {
+      padding: 2em;
+      .views-row {
+        &:before {
+          //content: ' ';
+        }
+      }
+    }
+  }
+}
+
+.view-actas thead {
+  display: none;
+}
+.view-actas tbody td {
+  padding: 0 1em;
+}
+
+/**
+ * Event Mini Calendar
+ */
+.has-events {
+  background-color: rgb(151,237,160);
+}

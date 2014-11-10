@@ -1,1 +1,4 @@
 *.swp
+.ruby-version
+.sass-cache/
+bower_components/

@@ -1,0 +1,38 @@
+name = Ayuntamiento de Getaria
+description = A custom D7 theme
+core = 7.x
+
+;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Header'
+regions[help]           = 'Help'
+regions[highlighted]    = 'Highlighted'
+regions[before_content] = 'Before Content'
+regions[content]        = 'Content'
+regions[after_content]  = 'After Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[sub_footer_1]   = 'Sub Footer 1'
+regions[sub_footer_2]   = 'Sub Footer 2'
+regions[sub_footer_3]   = 'Sub Footer 3'
+regions[sub_footer_4]   = 'Sub Footer 4'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = bower_components/bootstrap/dist/css/bootstrap.min.css
+stylesheets[screen, projection][] = assets/css/screen.css
+stylesheets[screen, projection][] = assets/css/print.css
+stylesheets-conditional[IE][screen, projection][] = assets/css/ie.css
+stylesheets[all][] = assets/css/zocial-font/zocial.css
+
+;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;
+scripts[] = bower_components/bootstrap/dist/js/bootstrap.min.js
