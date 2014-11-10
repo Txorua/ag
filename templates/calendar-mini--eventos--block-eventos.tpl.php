@@ -16,6 +16,8 @@
  * 
  */
 //dsm('Display: '. $display_type .': '. $min_date_formatted .' to '. $max_date_formatted);dsm($day_names);
+//dsm($variables);
+//dsm(date("F Y", time($min_date_formatted)));
 $params = array(
   'view' => $view,
   'granularity' => 'month',

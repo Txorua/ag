@@ -17,10 +17,68 @@ body {
 #block-search-form {
 }
 
+article {
+  header {
+    h1.page-header {
+      border-bottom: 0.1em solid green;
+    }
+  }
+}
+
 .site-header {
   nav[role=navigation] {
     background-color: #29286a;
     color: white;
+  }
+}
+
+.container.main {
+  @include rhythm(0,0,0,1);
+  .block {
+    @include border-radius(9px);
+    border: solid 1px #777;
+    border-top: none;
+    h2 {
+      font-size: 1.8em;
+      background-color: #eee;
+      color: #777;
+      @include border-top-left-radius(9px);
+      @include border-top-right-radius(9px);
+      border-top: solid 1px #eee;
+      @include rhythm(1,0.2,0,0);
+      padding-left: 0.5em;
+    }
+    .content {
+      padding: 2em;
+      .views-row {
+        &:before {
+          //content: ' ';
+        }
+      }
+    }
+  }
+  #block-views-eventos-block-eventos {
+    .content {
+      padding: 0;
+      .view-content {
+        padding: 1em;
+        thead {
+          border-bottom: solid 1px rgb(119,119,119);
+          th {
+            border: none;
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.region.sidebar-first {
+  .block {
+    h2 {
+      display: none;
+    }
   }
 }
 
@@ -43,49 +101,6 @@ body {
         background-repeat: no-repeat;
         background-position: top center;
         min-height: 80px;
-      }
-    }
-  }
-}
-
-.region.sidebar-first {
-  .block {
-    h2 {
-      display: none;
-    }
-  }
-}
-
-article {
-  header {
-    h1.page-header {
-      border-bottom: 0.1em solid green;
-    }
-  }
-}
-
-.container.main {
-  @include rhythm(0,0,0,1);
-}
-
-main {
-  #block-views-noticias-block-noticias {
-    @include border-radius(9px);
-    border: solid 1px #777;
-    border-top: none;
-    h2 {
-      background-color: #eee;
-      color: #777;
-      @include border-top-left-radius(9px);
-      @include border-top-right-radius(9px);
-      border-top: solid 1px #eee;
-    }
-    .content {
-      padding: 2em;
-      .views-row {
-        &:before {
-          //content: ' ';
-        }
       }
     }
   }

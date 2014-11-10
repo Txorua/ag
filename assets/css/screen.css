@@ -12,60 +12,35 @@ body {
   list-style-image: none;
 }
 
-/* line 21, ../../scss/screen.scss */
+/* line 22, ../../scss/screen.scss */
+article header h1.page-header {
+  border-bottom: 0.1em solid green;
+}
+
+/* line 29, ../../scss/screen.scss */
 .site-header nav[role=navigation] {
   background-color: #29286a;
   color: white;
 }
 
-/* line 27, ../../scss/screen.scss */
-.site-footer {
-  background-color: #29286a;
-  color: white;
-}
-/* line 32, ../../scss/screen.scss */
-.site-footer .block h2 {
-  font-style: italic;
-  font-size: 1.25em;
-  line-height: 1.2em;
-}
-/* line 40, ../../scss/screen.scss */
-.site-footer #udala header h1 {
-  margin: 0;
-  background-image: url(../images/logo-getariako-udala.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  min-height: 80px;
-}
-
-/* line 53, ../../scss/screen.scss */
-.region.sidebar-first .block h2 {
-  display: none;
-}
-
-/* line 61, ../../scss/screen.scss */
-article header h1.page-header {
-  border-bottom: 0.1em solid green;
-}
-
-/* line 67, ../../scss/screen.scss */
+/* line 35, ../../scss/screen.scss */
 .container.main {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-
-/* line 72, ../../scss/screen.scss */
-main #block-views-noticias-block-noticias {
+/* line 37, ../../scss/screen.scss */
+.container.main .block {
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
   border-radius: 9px;
   border: solid 1px #777;
   border-top: none;
 }
-/* line 76, ../../scss/screen.scss */
-main #block-views-noticias-block-noticias h2 {
+/* line 41, ../../scss/screen.scss */
+.container.main .block h2 {
+  font-size: 1.8em;
   background-color: #eee;
   color: #777;
   -moz-border-radius-topleft: 9px;
@@ -75,18 +50,65 @@ main #block-views-noticias-block-noticias h2 {
   -webkit-border-top-right-radius: 9px;
   border-top-right-radius: 9px;
   border-top: solid 1px #eee;
+  margin-top: 1.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  padding-left: 0.5em;
 }
-/* line 83, ../../scss/screen.scss */
-main #block-views-noticias-block-noticias .content {
+/* line 51, ../../scss/screen.scss */
+.container.main .block .content {
   padding: 2em;
 }
+/* line 61, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content {
+  padding: 0;
+}
+/* line 63, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content {
+  padding: 1em;
+}
+/* line 65, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content thead {
+  border-bottom: solid 1px #777777;
+}
+/* line 67, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content thead th {
+  border: none;
+  background-color: white;
+}
 
-/* line 94, ../../scss/screen.scss */
+/* line 79, ../../scss/screen.scss */
+.region.sidebar-first .block h2 {
+  display: none;
+}
+
+/* line 85, ../../scss/screen.scss */
+.site-footer {
+  background-color: #29286a;
+  color: white;
+}
+/* line 90, ../../scss/screen.scss */
+.site-footer .block h2 {
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+/* line 98, ../../scss/screen.scss */
+.site-footer #udala header h1 {
+  margin: 0;
+  background-image: url(../images/logo-getariako-udala.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 80px;
+}
+
+/* line 109, ../../scss/screen.scss */
 .view-actas thead {
   display: none;
 }
 
-/* line 97, ../../scss/screen.scss */
+/* line 112, ../../scss/screen.scss */
 .view-actas tbody td {
   padding: 0 1em;
 }
@@ -94,7 +116,7 @@ main #block-views-noticias-block-noticias .content {
 /**
  * Event Mini Calendar
  */
-/* line 104, ../../scss/screen.scss */
+/* line 119, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
