@@ -9,6 +9,7 @@
 
 body {
   font-family: open-sans, sans-serif;
+  counter-reset: noticia;
 }
 
 .list-unstyled li.leaf {
@@ -18,15 +19,22 @@ body {
 #block-search-form {
 }
 
-article {
-  header {
-    h1.page-header {
-      border-bottom: 0.1em solid #29286a;
-    }
-  }
-}
+
 
 .site-header {
+  .header-links {
+    @include rhythm(0,0.5,0.5,0);
+    h1 {
+      @include rhythm(0,0,0,0);
+      a {
+        color: #666;
+        .site-name {
+          position: absolute;
+          bottom: 20%;
+        }
+      }
+    }
+  }
   nav[role=navigation] {
     background-color: #29286a;
     color: white;
@@ -35,8 +43,18 @@ article {
 
 .container.main {
   @include rhythm(0,0,0,1);
+  article {
+    header {
+      h1.page-header {
+        border-bottom: 0.1em solid #29286a;
+      }
+    }
+  }
   img.banner {
     @include single-box-shadow(3px,3px,5px);
+  }
+  .row > div {
+    @include rhythm(0,0,0,1);
   }
   .block {
     @include border-radius(9px);
@@ -48,7 +66,7 @@ article {
       color: #777;
       @include border-top-left-radius(9px);
       @include border-top-right-radius(9px);
-      border-top: solid 1px #eee;
+      border-top: solid 1px #777;
       border-bottom: 0.1em solid #29286a;
       @include rhythm(1,0.2,0,0);
       padding-left: 0.5em;
@@ -75,7 +93,11 @@ article {
       padding: 0;
     }
   }
-  #block-views-eventos-block-eventos {
+  #block-views-eventos-block-eventos, 
+  #block-views-calendario-block-1 {
+    h2 {
+      margin-top: 0;
+    }
     .content {
       padding: 0;
       .view-content {
@@ -87,6 +109,45 @@ article {
             background-color: white;
           }
         }
+      }
+    }
+    .date-nav {
+      margin-bottom: 0;
+    }
+  }
+  .date-nav {
+    padding-bottom: 0;
+    margin-bottom: 1em;
+    .date-heading {
+      h3 {
+        font-size: 1.2em;
+      }
+    }
+  }
+  .pager {
+    margin-bottom: 0;
+    li {
+      background: none;
+    }
+    li.date-prev {
+      margin-left: 0;
+      left: 0;
+      right: auto;
+    }
+    li.date-next {
+    }
+  }
+  #block-views-noticias-block-noticias {
+    article {
+      font-style:italic;
+      color: #999;
+      counter-increment: noticia;
+      h1:before {
+        //content: url(../images/puntos.png);
+        content: counter(noticia, square);
+      }
+      a {
+        color: #999 !important;
       }
     }
   }
