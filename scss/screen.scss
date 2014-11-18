@@ -37,7 +37,12 @@ body {
   }
   nav[role=navigation] {
     background-color: #29286a;
-    color: white;
+    a {
+      color: #ccc;
+      &:hover {
+        color: white;
+      }
+    }
   }
 }
 
@@ -100,6 +105,16 @@ body {
     }
     .content {
       padding: 0;
+      .view-header {
+        .date-heading {
+          h3 {
+            text-transform: lowercase;
+            a {
+              color: #777;
+            }
+          }
+        }
+      }
       .view-content {
         padding: 1em;
         thead {
@@ -107,6 +122,12 @@ body {
           th {
             border: none;
             background-color: white;
+          }
+        }
+        tbody {
+          a {
+            color: #777;
+            font-weight: bold;
           }
         }
       }

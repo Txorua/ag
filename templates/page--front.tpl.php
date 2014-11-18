@@ -76,7 +76,7 @@
 <header class="site-header" role="banner">
   <div class="container-fluid header-links">
     <div class="row">
-      <div class="col-md-4 hidden-xs">
+      <div class="col-md-6 hidden-xs">
         <h1>
           <a href="/" title="Home">
             <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-md-3 img-responsive">
@@ -84,10 +84,10 @@
           </a>
         </h1>
       </div>
-      <div class="col-md-4 text-right">
+      <div class="col-md-3 text-right">
         <?php print render($page['navigation']); ?>
       </div>
-      <div class="col-md-4 text-right">
+      <div class="col-md-3 text-right">
         <ul class="header-links list-inline list-unstyled h4">
         <li><a href="/contact"><?php print t("contact"); ?></a></li>
           <?php if (!empty($language_links)): ?>
