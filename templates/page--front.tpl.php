@@ -79,7 +79,7 @@
       <div class="col-md-6 hidden-xs">
         <h1>
           <a href="/" title="Home">
-            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-md-3 img-responsive">
+            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-md-2 img-responsive">
             <span class="col-md-9 site-name"><?php print $site_name; ?></span>
           </a>
         </h1>

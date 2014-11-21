@@ -45,6 +45,10 @@ body {
     }
     ul[role=menu] {
       li {
+        a {
+          padding-left: 0;
+          padding-right: 0;
+        }
         a:after {
           content: '\0000a0\0022ee';
           font-weight: bold;
@@ -181,6 +185,13 @@ body {
         a {
           color: #999 !important;
         }
+      }
+    }
+  }
+  #block-views-enlaces-y-links-block {
+    .view-content {
+      div {
+        width: 50%;
       }
     }
   }

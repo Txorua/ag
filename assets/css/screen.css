@@ -49,36 +49,41 @@ body {
   color: white;
 }
 /* line 48, ../../scss/screen.scss */
+.site-header nav[role=navigation] ul[role=menu] li a {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 52, ../../scss/screen.scss */
 .site-header nav[role=navigation] ul[role=menu] li a:after {
   content: '\0000a0\0022ee';
   font-weight: bold;
 }
 
-/* line 57, ../../scss/screen.scss */
+/* line 61, ../../scss/screen.scss */
 .container.main {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-/* line 61, ../../scss/screen.scss */
+/* line 65, ../../scss/screen.scss */
 .container.main article header h1.page-header {
   border-bottom: 0.1em solid #29286a;
 }
-/* line 66, ../../scss/screen.scss */
+/* line 70, ../../scss/screen.scss */
 .container.main img.banner {
   -moz-box-shadow: 3px 3px 5px #333333;
   -webkit-box-shadow: 3px 3px 5px #333333;
   box-shadow: 3px 3px 5px #333333;
 }
-/* line 69, ../../scss/screen.scss */
+/* line 73, ../../scss/screen.scss */
 .container.main .row > div {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-/* line 72, ../../scss/screen.scss */
+/* line 76, ../../scss/screen.scss */
 .container.main .block {
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -86,7 +91,7 @@ body {
   border: solid 1px #777;
   border-top: none;
 }
-/* line 76, ../../scss/screen.scss */
+/* line 80, ../../scss/screen.scss */
 .container.main .block h2 {
   font-size: 1.8em;
   background-color: #eee;
@@ -105,15 +110,15 @@ body {
   margin-bottom: 0em;
   padding-left: 0.5em;
 }
-/* line 87, ../../scss/screen.scss */
+/* line 91, ../../scss/screen.scss */
 .container.main .block .content {
   padding: 2em;
 }
-/* line 96, ../../scss/screen.scss */
+/* line 100, ../../scss/screen.scss */
 .container.main .block-system {
   border: none;
 }
-/* line 98, ../../scss/screen.scss */
+/* line 102, ../../scss/screen.scss */
 .container.main .block-system h2 {
   margin-top: 0em;
   padding-top: 0em;
@@ -126,107 +131,111 @@ body {
   border: none;
   background-color: white;
 }
-/* line 105, ../../scss/screen.scss */
+/* line 109, ../../scss/screen.scss */
 .container.main .block-system .content {
   padding: 0;
 }
-/* line 111, ../../scss/screen.scss */
+/* line 115, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos h2,
 .container.main #block-views-calendario-block-1 h2 {
   margin-top: 0;
 }
-/* line 114, ../../scss/screen.scss */
+/* line 118, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content,
 .container.main #block-views-calendario-block-1 .content {
   padding: 0;
 }
-/* line 118, ../../scss/screen.scss */
+/* line 122, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-header .date-heading h3,
 .container.main #block-views-calendario-block-1 .content .view-header .date-heading h3 {
   text-transform: lowercase;
 }
-/* line 120, ../../scss/screen.scss */
+/* line 124, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-header .date-heading h3 a,
 .container.main #block-views-calendario-block-1 .content .view-header .date-heading h3 a {
   color: #777;
 }
-/* line 126, ../../scss/screen.scss */
+/* line 130, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content,
 .container.main #block-views-calendario-block-1 .content .view-content {
   padding: 1em;
 }
-/* line 128, ../../scss/screen.scss */
+/* line 132, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content thead,
 .container.main #block-views-calendario-block-1 .content .view-content thead {
   border-bottom: solid 1px #777777;
 }
-/* line 130, ../../scss/screen.scss */
+/* line 134, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content thead th,
 .container.main #block-views-calendario-block-1 .content .view-content thead th {
   border: none;
   background-color: white;
 }
-/* line 136, ../../scss/screen.scss */
+/* line 140, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content tbody a,
 .container.main #block-views-calendario-block-1 .content .view-content tbody a {
   color: #777;
   font-weight: bold;
 }
-/* line 143, ../../scss/screen.scss */
+/* line 147, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .date-nav,
 .container.main #block-views-calendario-block-1 .date-nav {
   margin-bottom: 0;
 }
-/* line 147, ../../scss/screen.scss */
+/* line 151, ../../scss/screen.scss */
 .container.main .date-nav {
   padding-bottom: 0;
   margin-bottom: 1em;
 }
-/* line 151, ../../scss/screen.scss */
+/* line 155, ../../scss/screen.scss */
 .container.main .date-nav .date-heading h3 {
   font-size: 1.2em;
 }
-/* line 156, ../../scss/screen.scss */
+/* line 160, ../../scss/screen.scss */
 .container.main .pager {
   margin-bottom: 0;
 }
-/* line 158, ../../scss/screen.scss */
+/* line 162, ../../scss/screen.scss */
 .container.main .pager li {
   background: none;
 }
-/* line 161, ../../scss/screen.scss */
+/* line 165, ../../scss/screen.scss */
 .container.main .pager li.date-prev {
   margin-left: 0;
   left: 0;
   right: auto;
 }
-/* line 170, ../../scss/screen.scss */
+/* line 174, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias article {
   font-style: italic;
   color: #999;
 }
-/* line 174, ../../scss/screen.scss */
+/* line 178, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias article h1:before {
   content: '\0022ee';
   font-weight: bold;
 }
-/* line 181, ../../scss/screen.scss */
+/* line 185, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias article header a {
   color: #999 !important;
 }
+/* line 193, ../../scss/screen.scss */
+.container.main #block-views-enlaces-y-links-block .view-content div {
+  width: 50%;
+}
 
-/* line 197, ../../scss/screen.scss */
+/* line 208, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 202, ../../scss/screen.scss */
+/* line 213, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 210, ../../scss/screen.scss */
+/* line 221, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -235,12 +244,12 @@ body {
   min-height: 80px;
 }
 
-/* line 221, ../../scss/screen.scss */
+/* line 232, ../../scss/screen.scss */
 .view-actas thead {
   display: none;
 }
 
-/* line 224, ../../scss/screen.scss */
+/* line 235, ../../scss/screen.scss */
 .view-actas tbody td {
   padding: 0 1em;
 }
@@ -248,7 +257,7 @@ body {
 /**
  * Event Mini Calendar
  */
-/* line 231, ../../scss/screen.scss */
+/* line 242, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
