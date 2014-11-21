@@ -43,6 +43,14 @@ body {
         color: white;
       }
     }
+    ul[role=menu] {
+      li {
+        a:after {
+          content: '\0000a0\0022ee';
+          font-weight: bold;
+        }
+      }
+    }
   }
 }
 
@@ -162,13 +170,17 @@ body {
     article {
       font-style:italic;
       color: #999;
-      counter-increment: noticia;
+      //counter-increment: noticia;
       h1:before {
         //content: url(../images/puntos.png);
-        content: counter(noticia, square);
+        //content: counter(noticia, square);
+        content: '\0022ee';
+        font-weight:bold;
       }
-      a {
-        color: #999 !important;
+      header {
+        a {
+          color: #999 !important;
+        }
       }
     }
   }
