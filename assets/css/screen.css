@@ -220,22 +220,27 @@ body {
   color: #999 !important;
 }
 /* line 193, ../../scss/screen.scss */
-.container.main #block-views-enlaces-y-links-block .view-content div {
-  width: 50%;
+.container.main #block-views-enlaces-y-links-block .view-content img {
+  vertical-align: top;
+}
+/* line 196, ../../scss/screen.scss */
+.container.main #block-views-enlaces-y-links-block .view-content div.texto-link {
+  width: 45%;
+  display: inline-block;
 }
 
-/* line 208, ../../scss/screen.scss */
+/* line 212, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 213, ../../scss/screen.scss */
+/* line 217, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 221, ../../scss/screen.scss */
+/* line 225, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -244,12 +249,12 @@ body {
   min-height: 80px;
 }
 
-/* line 232, ../../scss/screen.scss */
+/* line 236, ../../scss/screen.scss */
 .view-actas thead {
   display: none;
 }
 
-/* line 235, ../../scss/screen.scss */
+/* line 239, ../../scss/screen.scss */
 .view-actas tbody td {
   padding: 0 1em;
 }
@@ -257,7 +262,7 @@ body {
 /**
  * Event Mini Calendar
  */
-/* line 242, ../../scss/screen.scss */
+/* line 246, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }

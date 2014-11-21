@@ -190,8 +190,12 @@ body {
   }
   #block-views-enlaces-y-links-block {
     .view-content {
-      div {
-        width: 50%;
+      img {
+        vertical-align: top;
+      }
+      div.texto-link {
+        width: 45%;
+        display: inline-block;
       }
     }
   }
