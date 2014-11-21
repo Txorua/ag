@@ -192,10 +192,16 @@ body {
     .view-content {
       img {
         vertical-align: top;
+        width: 45%;
       }
       div.texto-link {
+        font-size: 1.8em;
+        font-style:italic;
         width: 45%;
         display: inline-block;
+        a {
+          color: #333;
+        }
       }
     }
   }
