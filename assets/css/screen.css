@@ -222,7 +222,7 @@ body {
 /* line 193, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .view-content img {
   vertical-align: top;
-  width: 45%;
+  padding-right: 1em;
 }
 /* line 197, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .view-content div.texto-link {
