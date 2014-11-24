@@ -189,18 +189,19 @@ body {
     }
   }
   #block-views-enlaces-y-links-block {
-    .view-content {
-      img {
-        vertical-align: top;
-        padding-right: 1em;
-      }
-      div.texto-link {
-        font-size: 1.8em;
-        font-style:italic;
-        width: 45%;
-        display: inline-block;
-        a {
-          color: #333;
+    .content {
+      padding: 1em;
+      .view-content {
+        img {
+          vertical-align: top;
+          padding-right: 1em;
+        }
+        div.texto-link {
+          font-size: 1.6em;
+          font-style:italic;
+          a {
+            color: #333;
+          }
         }
       }
     }
