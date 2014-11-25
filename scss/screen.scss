@@ -17,10 +17,6 @@ body {
   list-style-image: none;
 }
 
-
-
-
-
 .site-header {
   .header-links {
     margin-top: 1em;
@@ -64,6 +60,16 @@ body {
         a:after {
           content: '\0000a0\0022ee';
           font-weight: bold;
+        }
+      }
+    }
+    .navbar-header {
+      .navbar-brand {
+        img {
+          margin-top: -15px;
+          width: 50px;
+          height: 50px;
+          display: inline-block !important;
         }
       }
     }

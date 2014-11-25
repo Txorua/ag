@@ -108,7 +108,12 @@
       </button>
       <?php if (!empty($site_name)): ?>
       <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <span class="visible-xs"><?php print $site_name; ?></span>
+        <span class="visible-xs">
+          <?php if ($logo): ?>
+          <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="visible-xs">
+          <?php endif; ?>
+          <?php print $site_name; ?>
+        </span>
       </a>
       <?php endif; ?>
     </div>
