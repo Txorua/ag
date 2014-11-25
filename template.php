@@ -64,6 +64,14 @@ function ag_menu_link(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
+function ag_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') {
+    //dsm($form);
+    //$form['actions']['submit']['#type'] = 'image_button';
+    $form['search_block_form']['#size'] = 10;
+  }
+}
+
 function _ag_language_list() {
   $path = drupal_is_front_page() ? '<front>' : $_GET['q'];
   $links = language_negotiation_get_switch_links('language', $path);
@@ -93,4 +101,3 @@ function _ag_language_list() {
   // output
   return $output;
 }
-

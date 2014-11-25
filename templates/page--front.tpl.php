@@ -76,19 +76,19 @@
 <header class="site-header" role="banner">
   <div class="container-fluid header-links">
     <div class="row">
-      <div class="col-md-6 hidden-xs">
+      <div class="col-sm-5 col-md-6 hidden-xs">
         <h1>
           <a href="/" title="Home">
-            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-md-2 img-responsive">
-            <span class="col-md-9 site-name"><?php print $site_name; ?></span>
+            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-sm-4 col-md-3 img-responsive">
+            <span class="col-sm-8 col-md-8 site-name"><?php print $site_name; ?></span>
           </a>
         </h1>
       </div>
-      <div class="col-md-3 text-right">
+      <div class="col-xs-6 col-sm-4 col-md-3 text-right">
         <?php print render($page['navigation']); ?>
       </div>
-      <div class="col-md-3 text-right">
-        <ul class="header-links list-inline list-unstyled h4">
+      <div class="col-xs-6 col-sm-3 col-md-3 text-right">
+        <ul class="list-inline list-unstyled h4">
         <li><a href="/contact"><?php print t("contact"); ?></a></li>
           <?php if (!empty($language_links)): ?>
           <?php print $language_links; ?>
