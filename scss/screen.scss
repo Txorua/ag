@@ -207,6 +207,7 @@ body {
         img {
           vertical-align: top;
           //padding-right: 1em;
+          @include border-radius(16px);
         }
         div.texto-link {
           font-size: 1.4em;

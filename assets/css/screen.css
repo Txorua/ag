@@ -229,29 +229,32 @@ body {
 /* line 207, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content img {
   vertical-align: top;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
 }
-/* line 211, ../../scss/screen.scss */
+/* line 212, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link {
   font-size: 1.4em;
   font-style: italic;
 }
-/* line 214, ../../scss/screen.scss */
+/* line 215, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link a {
   color: #333;
 }
 
-/* line 231, ../../scss/screen.scss */
+/* line 232, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 236, ../../scss/screen.scss */
+/* line 237, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 244, ../../scss/screen.scss */
+/* line 245, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -260,12 +263,12 @@ body {
   min-height: 80px;
 }
 
-/* line 255, ../../scss/screen.scss */
+/* line 256, ../../scss/screen.scss */
 .view-actas thead {
   display: none;
 }
 
-/* line 258, ../../scss/screen.scss */
+/* line 259, ../../scss/screen.scss */
 .view-actas tbody td {
   padding: 0 1em;
 }
@@ -273,7 +276,7 @@ body {
 /**
  * Event Mini Calendar
  */
-/* line 265, ../../scss/screen.scss */
+/* line 266, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
@@ -282,64 +285,64 @@ body {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 274, ../../scss/screen.scss */
+  /* line 275, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 279, ../../scss/screen.scss */
+  /* line 280, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 284, ../../scss/screen.scss */
+  /* line 285, ../../scss/screen.scss */
   .site-header .header-links h1 {
     font-size: 1.4em;
   }
-  /* line 287, ../../scss/screen.scss */
+  /* line 288, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 290, ../../scss/screen.scss */
+  /* line 291, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
-  /* line 295, ../../scss/screen.scss */
+  /* line 296, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
-  /* line 302, ../../scss/screen.scss */
+  /* line 303, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 307, ../../scss/screen.scss */
+  /* line 308, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 310, ../../scss/screen.scss */
+  /* line 311, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
-  /* line 315, ../../scss/screen.scss */
+  /* line 316, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 322, ../../scss/screen.scss */
+  /* line 323, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 327, ../../scss/screen.scss */
+  /* line 328, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 330, ../../scss/screen.scss */
+  /* line 331, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
