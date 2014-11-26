@@ -128,11 +128,7 @@
 <div class="container main">
 <div class="row">
 
-<aside class="hidden-xs col-sm-4 col-md-3">
-<?php print render($page['sidebar_first']); ?>
-</aside>
-
-<main class="col-sm-8 col-md-9">
+<main class="col-sm-8 col-sm-push-4 col-md-9 col-md-push-3">
   <?php print $messages; ?>
   <?php if (!empty($page['help'])): ?>
     <?php print render($page['help']); ?>
@@ -164,6 +160,11 @@
     <?php print render($page['after_content']); ?>
   </section>
 </main>
+
+<aside class="col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+<?php print render($page['sidebar_first']); ?>
+</aside>
+
 
 </div>
 </div>
