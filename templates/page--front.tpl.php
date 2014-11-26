@@ -143,7 +143,7 @@
         </section>
       </main>
     </div>
-    <aside class="col-xs-6 col-md-3">
+    <aside class="col-xs-12 col-md-3">
       <?php print render($page['sidebar_second']); ?>
     </aside>
   </div>

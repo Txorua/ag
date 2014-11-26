@@ -259,11 +259,18 @@ body {
   }
 }
 
-.view-actas thead {
-  display: none;
-}
-.view-actas tbody td {
-  padding: 0 1em;
+.view-actas {
+  .view-content {
+    h3 {
+      display: none;
+    }
+    thead {
+      display: none;
+    }
+    tbody td {
+      padding: 0 1em;
+    }
+  }
 }
 
 /**

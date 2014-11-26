@@ -270,20 +270,23 @@ body {
   min-height: 80px;
 }
 
-/* line 262, ../../scss/screen.scss */
-.view-actas thead {
+/* line 264, ../../scss/screen.scss */
+.view-actas .view-content h3 {
   display: none;
 }
-
-/* line 265, ../../scss/screen.scss */
-.view-actas tbody td {
+/* line 267, ../../scss/screen.scss */
+.view-actas .view-content thead {
+  display: none;
+}
+/* line 270, ../../scss/screen.scss */
+.view-actas .view-content tbody td {
   padding: 0 1em;
 }
 
 /**
  * Event Mini Calendar
  */
-/* line 272, ../../scss/screen.scss */
+/* line 279, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
@@ -292,64 +295,64 @@ body {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 281, ../../scss/screen.scss */
+  /* line 288, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 286, ../../scss/screen.scss */
+  /* line 293, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 291, ../../scss/screen.scss */
+  /* line 298, ../../scss/screen.scss */
   .site-header .header-links h1 {
     font-size: 1.4em;
   }
-  /* line 294, ../../scss/screen.scss */
+  /* line 301, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 297, ../../scss/screen.scss */
+  /* line 304, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
-  /* line 302, ../../scss/screen.scss */
+  /* line 309, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
-  /* line 309, ../../scss/screen.scss */
+  /* line 316, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 314, ../../scss/screen.scss */
+  /* line 321, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 317, ../../scss/screen.scss */
+  /* line 324, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
-  /* line 322, ../../scss/screen.scss */
+  /* line 329, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 329, ../../scss/screen.scss */
+  /* line 336, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 334, ../../scss/screen.scss */
+  /* line 341, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 337, ../../scss/screen.scss */
+  /* line 344, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
