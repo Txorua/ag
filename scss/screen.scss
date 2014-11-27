@@ -273,7 +273,14 @@ body {
     }
   }
 }
-
+.node-publicacion {
+  thead {
+    display: none;
+  }
+  tbody td {
+    padding: 0 1em;
+  }
+}
 /**
  * Event Mini Calendar
  */

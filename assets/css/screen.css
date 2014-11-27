@@ -286,10 +286,19 @@ body {
   padding: 0 1em;
 }
 
+/* line 277, ../../scss/screen.scss */
+.node-publicacion thead {
+  display: none;
+}
+/* line 280, ../../scss/screen.scss */
+.node-publicacion tbody td {
+  padding: 0 1em;
+}
+
 /**
  * Event Mini Calendar
  */
-/* line 280, ../../scss/screen.scss */
+/* line 287, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
@@ -298,64 +307,64 @@ body {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 289, ../../scss/screen.scss */
+  /* line 296, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 294, ../../scss/screen.scss */
+  /* line 301, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 299, ../../scss/screen.scss */
+  /* line 306, ../../scss/screen.scss */
   .site-header .header-links h1 {
     font-size: 1.4em;
   }
-  /* line 302, ../../scss/screen.scss */
+  /* line 309, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 305, ../../scss/screen.scss */
+  /* line 312, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
-  /* line 310, ../../scss/screen.scss */
+  /* line 317, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
-  /* line 317, ../../scss/screen.scss */
+  /* line 324, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 322, ../../scss/screen.scss */
+  /* line 329, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 325, ../../scss/screen.scss */
+  /* line 332, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
-  /* line 330, ../../scss/screen.scss */
+  /* line 337, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 337, ../../scss/screen.scss */
+  /* line 344, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 342, ../../scss/screen.scss */
+  /* line 349, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 345, ../../scss/screen.scss */
+  /* line 352, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
