@@ -214,6 +214,7 @@ body {
           vertical-align: top;
           //padding-right: 1em;
           @include border-radius(16px);
+          width: 100%;
         }
         div.texto-link {
           font-size: 1.4em;
