@@ -29,7 +29,4 @@ $alt = $row->field_field_imagen[0]['raw']['alt'];
 $tit = $row->field_field_imagen[0]['raw']['title'];
 $img = file_create_url($row->field_field_imagen[0]['raw']['uri']);
 ?>
-<div class="row">
-  <div class="col-xs-5 col-md-12 col-lg-5"><img class="img-responsive center-block" typeof="foaf:image" src="<?php print $img; ?>" alt="<?php print $alt; ?>" title="<?php print $tit; ?>"></div>
-  <div class="col-xs-7 col-md-12 col-lg-5 texto-link text-center"><?php print render($fields['field_fuente']->content); ?></div>
-</div>
+<a href="<?php print $row->field_field_fuente[0]['raw']['url']; ?>"><img class="img-responsive center-block" typeof="foaf:image" src="<?php print $img; ?>" alt="<?php print $alt; ?>" title="<?php print $tit; ?>"></a>
