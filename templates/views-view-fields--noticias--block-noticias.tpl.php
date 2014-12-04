@@ -43,6 +43,7 @@
       &ndash; <time title="" class="h3"><?php print $variables['fields']['created']->content; ?></time>
     </h1>
   </header>
+  <?php print $variables['fields']['field_imagen']->content; ?>
   <?php print $variables['fields']['body']->content; ?>
   <?php print $variables['fields']['field_fuente']->content; ?>
 </article>

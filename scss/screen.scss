@@ -189,19 +189,28 @@ body {
     }
   }
   #block-views-noticias-block-noticias {
-    article {
-      font-style:italic;
-      color: #999;
-      //counter-increment: noticia;
-      h1:before {
-        //content: url(../images/puntos.png);
-        //content: counter(noticia, square);
-        content: '\0022ee';
-        font-weight:bold;
-      }
-      header {
-        a {
-          color: #999 !important;
+    .content {
+      .views-row {
+        @include rhythm(1,0,0,1);
+        article {
+          overflow: hidden;
+          font-style:italic;
+          color: #999;
+          //counter-increment: noticia;
+          h1:before {
+            //content: url(../images/puntos.png);
+            //content: counter(noticia, square);
+            content: '\0022ee';
+            font-weight:bold;
+          }
+          header {
+            a {
+              color: #999 !important;
+            }
+          }
+          img {
+            float: right;
+          }
         }
       }
     }

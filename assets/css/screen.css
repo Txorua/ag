@@ -215,25 +215,37 @@ body {
   left: 0;
   right: auto;
 }
-/* line 192, ../../scss/screen.scss */
-.container.main #block-views-noticias-block-noticias article {
+/* line 193, ../../scss/screen.scss */
+.container.main #block-views-noticias-block-noticias .content .views-row {
+  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+/* line 195, ../../scss/screen.scss */
+.container.main #block-views-noticias-block-noticias .content .views-row article {
+  overflow: hidden;
   font-style: italic;
   color: #999;
 }
-/* line 196, ../../scss/screen.scss */
-.container.main #block-views-noticias-block-noticias article h1:before {
+/* line 200, ../../scss/screen.scss */
+.container.main #block-views-noticias-block-noticias .content .views-row article h1:before {
   content: '\0022ee';
   font-weight: bold;
 }
-/* line 203, ../../scss/screen.scss */
-.container.main #block-views-noticias-block-noticias article header a {
+/* line 207, ../../scss/screen.scss */
+.container.main #block-views-noticias-block-noticias .content .views-row article header a {
   color: #999 !important;
 }
-/* line 210, ../../scss/screen.scss */
+/* line 211, ../../scss/screen.scss */
+.container.main #block-views-noticias-block-noticias .content .views-row article img {
+  float: right;
+}
+/* line 219, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content {
   padding: 1em;
 }
-/* line 213, ../../scss/screen.scss */
+/* line 222, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content img {
   vertical-align: top;
   -moz-border-radius: 16px;
@@ -241,28 +253,28 @@ body {
   border-radius: 16px;
   width: 100%;
 }
-/* line 219, ../../scss/screen.scss */
+/* line 228, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link {
   font-size: 1.4em;
   font-style: italic;
 }
-/* line 222, ../../scss/screen.scss */
+/* line 231, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link a {
   color: #333;
 }
 
-/* line 239, ../../scss/screen.scss */
+/* line 248, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 244, ../../scss/screen.scss */
+/* line 253, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 252, ../../scss/screen.scss */
+/* line 261, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -271,27 +283,27 @@ body {
   min-height: 80px;
 }
 
-/* line 266, ../../scss/screen.scss */
+/* line 275, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 269, ../../scss/screen.scss */
+/* line 278, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 272, ../../scss/screen.scss */
+/* line 281, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 278, ../../scss/screen.scss */
+/* line 287, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 281, ../../scss/screen.scss */
+/* line 290, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -299,7 +311,7 @@ body {
 /**
  * Event Mini Calendar
  */
-/* line 288, ../../scss/screen.scss */
+/* line 297, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
@@ -308,64 +320,64 @@ body {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 297, ../../scss/screen.scss */
+  /* line 306, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 302, ../../scss/screen.scss */
+  /* line 311, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 307, ../../scss/screen.scss */
+  /* line 316, ../../scss/screen.scss */
   .site-header .header-links h1 {
     font-size: 1.4em;
   }
-  /* line 310, ../../scss/screen.scss */
+  /* line 319, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 313, ../../scss/screen.scss */
+  /* line 322, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
-  /* line 318, ../../scss/screen.scss */
+  /* line 327, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
-  /* line 325, ../../scss/screen.scss */
+  /* line 334, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 330, ../../scss/screen.scss */
+  /* line 339, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 333, ../../scss/screen.scss */
+  /* line 342, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
-  /* line 338, ../../scss/screen.scss */
+  /* line 347, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 345, ../../scss/screen.scss */
+  /* line 354, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 350, ../../scss/screen.scss */
+  /* line 359, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 353, ../../scss/screen.scss */
+  /* line 362, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
