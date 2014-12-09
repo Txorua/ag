@@ -1,6 +1,6 @@
 <div class="col-md-4">
 <header>
-<h1><?php print $variables['fields']['name_i18n']->content; ?></h1>
+<h1 class="h5"><?php print $variables['fields']['name_i18n']->content; ?></h1>
 </header>
 <?php if($row->field_field_imagen): ?>
 <?php
