@@ -78,7 +78,7 @@
     <div class="row">
       <div class="col-sm-5 col-md-6 hidden-xs">
         <h1>
-          <a href="/" title="Home">
+        <a href="<?php print $front_page; ?>" title="Home">
             <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-sm-4 col-md-3 img-responsive">
             <span class="col-sm-8 col-md-8 site-name"><?php print $site_name; ?></span>
           </a>
