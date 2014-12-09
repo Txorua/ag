@@ -1,4 +1,3 @@
-<?php dsm($row); ?>
 <div class="col-md-4">
 <header>
 <h1><?php print $variables['fields']['name_i18n']->content; ?></h1>
