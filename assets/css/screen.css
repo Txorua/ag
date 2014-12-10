@@ -315,68 +315,76 @@ body {
   background-color: #97eda0;
 }
 
+/* line 301, ../../scss/screen.scss */
+.dir-dpto {
+  margin-top: 0em;
+  padding-top: 3em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
 /**
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 306, ../../scss/screen.scss */
+  /* line 309, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 311, ../../scss/screen.scss */
+  /* line 314, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 316, ../../scss/screen.scss */
+  /* line 319, ../../scss/screen.scss */
   .site-header .header-links h1 {
     font-size: 1.4em;
   }
-  /* line 319, ../../scss/screen.scss */
+  /* line 322, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 322, ../../scss/screen.scss */
+  /* line 325, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
-  /* line 327, ../../scss/screen.scss */
+  /* line 330, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
-  /* line 334, ../../scss/screen.scss */
+  /* line 337, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 339, ../../scss/screen.scss */
+  /* line 342, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 342, ../../scss/screen.scss */
+  /* line 345, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
-  /* line 347, ../../scss/screen.scss */
+  /* line 350, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 354, ../../scss/screen.scss */
+  /* line 357, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 359, ../../scss/screen.scss */
+  /* line 362, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 362, ../../scss/screen.scss */
+  /* line 365, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }

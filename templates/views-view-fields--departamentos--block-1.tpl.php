@@ -27,34 +27,36 @@
 <?php //dsm($row); ?>
 <div class="row">
   <div class="col-sm-6">
-    <?php if ($row->field_field_direccion): ?>
-    <p>
-      <?php print $row->field_field_direccion[0]['raw']['thoroughfare']; ?><br/>
-      <?php print $row->field_field_direccion[0]['raw']['postal_code']; ?> &ndash;
-      <?php print $row->field_field_direccion[0]['raw']['locality']; ?>
-    </p>
-    <?php endif; ?>
+    <div class="dir-dpto">
+      <?php if ($row->field_field_direccion): ?>
+      <p>
+        <?php print $row->field_field_direccion[0]['raw']['thoroughfare']; ?><br/>
+        <?php print $row->field_field_direccion[0]['raw']['postal_code']; ?> &ndash;
+        <?php print $row->field_field_direccion[0]['raw']['locality']; ?>
+      </p>
+      <?php endif; ?>
 
-    <?php if ($row->field_field_direccion): ?>
-    <p>
-      <?php if ($row->field_field_direccion[0]['raw']['phone_number']): ?>
-      <i class="glyphicon glyphicon-earphone">&nbsp;</i><?php print $row->field_field_direccion[0]['raw']['phone_number']; ?><br/>
+      <?php if ($row->field_field_direccion): ?>
+      <p>
+        <?php if ($row->field_field_direccion[0]['raw']['phone_number']): ?>
+        <i class="glyphicon glyphicon-earphone">&nbsp;</i><?php print $row->field_field_direccion[0]['raw']['phone_number']; ?><br/>
+        <?php endif; ?>
+        <?php if ($row->field_field_direccion[0]['raw']['mobile_number']): ?>
+        <i class="glyphicon glyphicon-phone">&nbsp;</i><?php print $row->field_field_direccion[0]['raw']['mobile_number']; ?><br/>
+        <?php endif; ?>
+        <?php if ($row->field_field_direccion[0]['raw']['fax_number']): ?>
+        <i class="glyphicon glyphicon-print">&nbsp;</i><?php print $row->field_field_direccion[0]['raw']['fax_number']; ?>
+        <?php endif; ?>
+      </p>
       <?php endif; ?>
-      <?php if ($row->field_field_direccion[0]['raw']['mobile_number']): ?>
-      <i class="glyphicon glyphicon-phone">&nbsp;</i><?php print $row->field_field_direccion[0]['raw']['mobile_number']; ?><br/>
-      <?php endif; ?>
-      <?php if ($row->field_field_direccion[0]['raw']['fax_number']): ?>
-      <i class="glyphicon glyphicon-print">&nbsp;</i><?php print $row->field_field_direccion[0]['raw']['fax_number']; ?>
-      <?php endif; ?>
-    </p>
-    <?php endif; ?>
 
-    <?php if ($row->field_field_horario): ?>
-    <div>
-      <span class="h4"><?php print t('Office hours'); ?>:</span>
-      <?php print $variables['fields']['field_horario']->content; ?>
+      <?php if ($row->field_field_horario): ?>
+      <div>
+        <span class="h4"><?php print t('Office hours'); ?>:</span>
+        <?php print $variables['fields']['field_horario']->content; ?>
+      </div>
+      <?php endif; ?>
     </div>
-    <?php endif; ?>
   </div>
 
   <div class="col-sm-6">
