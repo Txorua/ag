@@ -38,9 +38,9 @@
 
 <article>
   <header class="clearfix">
-    <h1 class="h3">
+    <h1 class="h5">
       <?php print $variables['fields']['title']->content; ?>
-      &ndash; <time title="" class="h3"><?php print $variables['fields']['created']->content; ?></time>
+      &ndash; <time title="" class="h5"><?php print $variables['fields']['created']->content; ?></time>
     </h1>
   </header>
   <?php print $variables['fields']['field_imagen']->content; ?>
