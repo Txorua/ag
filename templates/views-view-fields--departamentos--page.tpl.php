@@ -6,7 +6,9 @@
 <?php
   $uri = $row->field_field_imagen[0]['raw']['uri'];
   $src = image_style_url('imagen_400x220', $uri);
+  //dsm($row);
+  global $language;
 ?>
-  <img src="<?php print $src; ?>" class="img-responsive breadcrumb" typeof="foaf:Image">
+  <a href="<?php print drupal_get_path_alias('taxonomy/term/' . $row->tid, $language->language); ?>"><img src="<?php print $src; ?>" class="img-responsive breadcrumb" typeof="foaf:Image"></a>
 <?php endif; ?>
 </div>
