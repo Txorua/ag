@@ -24,11 +24,11 @@
  * @ingroup views_templates
  */
 ?>
-<?php //dsm($row); ?>
+<?php //dsm($variables); ?>
 <div class="row">
   <div class="col-sm-6">
     <div class="dir-dpto">
-      <?php if ($row->field_field_direccion): ?>
+      <?php if (array_key_exists('field_direccion', $fields)): ?>
       <p>
         <?php print $row->field_field_direccion[0]['raw']['thoroughfare']; ?><br/>
         <?php print $row->field_field_direccion[0]['raw']['postal_code']; ?> &ndash;
