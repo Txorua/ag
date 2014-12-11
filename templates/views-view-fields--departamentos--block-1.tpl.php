@@ -24,8 +24,11 @@
  * @ingroup views_templates
  */
 ?>
-<?php //dsm($variables); ?>
+<?php //dsm($fields); ?>
 <div class="row">
+  <div class="col-sm-12">
+    <?php print $fields['description_i18n']->content; ?>
+  </div>
   <div class="col-sm-6">
     <div class="dir-dpto">
       <?php if (array_key_exists('field_direccion', $fields)): ?>
