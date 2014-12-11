@@ -30,7 +30,7 @@
   <?php print $variables['date']; ?>
     <?php if (isset($content['field_imagen'][0])): ?>
     <?php
-        $content['field_imagen'][0]['#item']['attributes'] = array('class' => 'img-responsive pull-right');
+        $content['field_imagen'][0]['#item']['attributes'] = array('class' => 'img-responsive pull-right breadcrumb');
         print render($content['field_imagen'][0]);
     ?>
     <?php endif; ?>
