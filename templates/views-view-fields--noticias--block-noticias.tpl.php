@@ -24,7 +24,7 @@
  * @ingroup views_templates
  */
 ?>
-<?php //dsm($variables); ?>
+<?php //dsm($row); ?>
 <?php //foreach ($fields as $id => $field): ?>
   <?php //if (!empty($field->separator)): ?>
     <?php //print $field->separator; ?>
@@ -43,7 +43,15 @@
       &ndash; <time title="" class="h5"><?php print $variables['fields']['created']->content; ?></time>
     </h1>
   </header>
-  <?php print $variables['fields']['field_imagen']->content; ?>
+  <?php
+    if($row->field_field_imagen) {
+      $uri = $row->field_field_imagen[0]['raw']['uri'];
+      $src = image_style_url('medium', $uri);
+    }
+  ?>
+  <?php //print $variables['fields']['field_imagen']->content; ?>
+  <img src="<?php print $src; ?>" class="breadcrumb" typeof="foaf:Image">
   <?php print $variables['fields']['body']->content; ?>
   <?php print $variables['fields']['field_fuente']->content; ?>
 </article>
+
