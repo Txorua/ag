@@ -88,6 +88,14 @@
           <li><a href="#"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
           <li><a href="mailto:udala@example.com"><i class="fa fa-envelope"> </i>udala@example.com</a></li>
           <li><a href="tel:943123456"><i class="fa fa-phone"></i>+34 943 123 456</a></li>
+          <li>
+            <ul class="list-inline list-unstyled">
+            <li><i class="fa fa-flag"></i></li>
+          <?php if (!empty($language_links)): ?>
+          <?php print $language_links; ?>
+          <?php endif; ?>
+            </ul>
+           </li>
         </ul>
       </div>
     </div>
@@ -108,10 +116,7 @@
       </div>
       <div class="col-xs-6 col-sm-3 col-md-3 text-right">
         <ul class="list-inline list-unstyled h4">
-        <li><a href="/contact"><?php print t("contact"); ?></a></li>
-          <?php if (!empty($language_links)): ?>
-          <?php print $language_links; ?>
-          <?php endif; ?>
+          
         </ul>
       </div>
     </div><!-- end row -->
