@@ -31,89 +31,102 @@ body {
   border-left: solid 1px #e9e9e9;
 }
 /* line 30, ../../scss/screen.scss */
+.site-header .top-bar ul li ul {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 33, ../../scss/screen.scss */
+.site-header .top-bar ul li ul i {
+  color: #29286a;
+}
+/* line 37, ../../scss/screen.scss */
 .site-header .top-bar ul li a {
   color: #a2a2a2;
 }
-/* line 32, ../../scss/screen.scss */
+/* line 39, ../../scss/screen.scss */
 .site-header .top-bar ul li a i {
   padding-right: 0.8em;
   color: #29286a;
 }
-/* line 40, ../../scss/screen.scss */
+/* line 45, ../../scss/screen.scss */
+.site-header .top-bar ul li.lenguage {
+  border-left: none;
+}
+/* line 50, ../../scss/screen.scss */
 .site-header .header-links {
   margin-top: 1em;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 45, ../../scss/screen.scss */
+/* line 55, ../../scss/screen.scss */
 .site-header .header-links h1 {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 47, ../../scss/screen.scss */
+/* line 57, ../../scss/screen.scss */
 .site-header .header-links h1 a {
   color: #666;
 }
-/* line 59, ../../scss/screen.scss */
+/* line 69, ../../scss/screen.scss */
 .site-header .header-links #block-search-form #edit-submit {
   text-transform: lowercase;
 }
-/* line 65, ../../scss/screen.scss */
+/* line 75, ../../scss/screen.scss */
 .site-header nav[role=navigation] {
   background-color: #29286a;
 }
-/* line 67, ../../scss/screen.scss */
+/* line 77, ../../scss/screen.scss */
 .site-header nav[role=navigation] a {
   color: #ccc;
 }
-/* line 69, ../../scss/screen.scss */
+/* line 79, ../../scss/screen.scss */
 .site-header nav[role=navigation] a:hover {
   color: white;
 }
-/* line 75, ../../scss/screen.scss */
+/* line 85, ../../scss/screen.scss */
 .site-header nav[role=navigation] ul[role=menu] li a {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 79, ../../scss/screen.scss */
+/* line 89, ../../scss/screen.scss */
 .site-header nav[role=navigation] ul[role=menu] li a:after {
   content: '\0000a0\0022ee';
   font-weight: bold;
 }
-/* line 87, ../../scss/screen.scss */
+/* line 97, ../../scss/screen.scss */
 .site-header nav[role=navigation] .navbar-header .navbar-brand img {
   margin-top: -15px;
   height: 50px;
   display: inline-block !important;
 }
 
-/* line 98, ../../scss/screen.scss */
+/* line 108, ../../scss/screen.scss */
 .container.main {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-/* line 102, ../../scss/screen.scss */
+/* line 112, ../../scss/screen.scss */
 .container.main article header h1.page-header {
   border-bottom: 0.1em solid #29286a;
 }
-/* line 107, ../../scss/screen.scss */
+/* line 117, ../../scss/screen.scss */
 .container.main img.banner {
   -moz-box-shadow: 3px 3px 5px #333333;
   -webkit-box-shadow: 3px 3px 5px #333333;
   box-shadow: 3px 3px 5px #333333;
 }
-/* line 110, ../../scss/screen.scss */
+/* line 120, ../../scss/screen.scss */
 .container.main .row > div {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-/* line 113, ../../scss/screen.scss */
+/* line 123, ../../scss/screen.scss */
 .container.main .block {
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -121,7 +134,7 @@ body {
   border: solid 1px #777;
   border-top: none;
 }
-/* line 117, ../../scss/screen.scss */
+/* line 127, ../../scss/screen.scss */
 .container.main .block h2 {
   font-size: 1.8em;
   background-color: #eee;
@@ -140,15 +153,15 @@ body {
   margin-bottom: 0em;
   padding-left: 0.5em;
 }
-/* line 128, ../../scss/screen.scss */
+/* line 138, ../../scss/screen.scss */
 .container.main .block .content {
   padding: 2em;
 }
-/* line 137, ../../scss/screen.scss */
+/* line 147, ../../scss/screen.scss */
 .container.main .block-system {
   border: none;
 }
-/* line 139, ../../scss/screen.scss */
+/* line 149, ../../scss/screen.scss */
 .container.main .block-system h2 {
   margin-top: 0em;
   padding-top: 0em;
@@ -161,94 +174,94 @@ body {
   border: none;
   background-color: white;
 }
-/* line 146, ../../scss/screen.scss */
+/* line 156, ../../scss/screen.scss */
 .container.main .block-system .content {
   padding: 0;
 }
-/* line 152, ../../scss/screen.scss */
+/* line 162, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos h2,
 .container.main #block-views-calendario-block-1 h2 {
   margin-top: 0;
 }
-/* line 155, ../../scss/screen.scss */
+/* line 165, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content,
 .container.main #block-views-calendario-block-1 .content {
   padding: 0;
 }
-/* line 159, ../../scss/screen.scss */
+/* line 169, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-header .date-heading h3,
 .container.main #block-views-calendario-block-1 .content .view-header .date-heading h3 {
   text-transform: lowercase;
 }
-/* line 161, ../../scss/screen.scss */
+/* line 171, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-header .date-heading h3 a,
 .container.main #block-views-calendario-block-1 .content .view-header .date-heading h3 a {
   color: #777;
 }
-/* line 167, ../../scss/screen.scss */
+/* line 177, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content,
 .container.main #block-views-calendario-block-1 .content .view-content {
   padding: 1em;
 }
-/* line 169, ../../scss/screen.scss */
+/* line 179, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content thead,
 .container.main #block-views-calendario-block-1 .content .view-content thead {
   border-bottom: solid 1px #777777;
 }
-/* line 171, ../../scss/screen.scss */
+/* line 181, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content thead th,
 .container.main #block-views-calendario-block-1 .content .view-content thead th {
   border: none;
   background-color: white;
 }
-/* line 177, ../../scss/screen.scss */
+/* line 187, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content tbody a,
 .container.main #block-views-calendario-block-1 .content .view-content tbody a {
   color: #777;
   font-weight: bold;
 }
-/* line 184, ../../scss/screen.scss */
+/* line 194, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .date-nav,
 .container.main #block-views-calendario-block-1 .date-nav {
   margin-bottom: 0;
 }
-/* line 188, ../../scss/screen.scss */
+/* line 198, ../../scss/screen.scss */
 .container.main .date-nav {
   padding-bottom: 0;
   margin-bottom: 1em;
 }
-/* line 192, ../../scss/screen.scss */
+/* line 202, ../../scss/screen.scss */
 .container.main .date-nav .date-heading h3 {
   font-size: 1.2em;
 }
-/* line 197, ../../scss/screen.scss */
+/* line 207, ../../scss/screen.scss */
 .container.main .pager {
   margin-bottom: 0;
 }
-/* line 199, ../../scss/screen.scss */
+/* line 209, ../../scss/screen.scss */
 .container.main .pager li {
   background: none;
 }
-/* line 202, ../../scss/screen.scss */
+/* line 212, ../../scss/screen.scss */
 .container.main .pager li.date-prev {
   margin-left: 0;
   left: 0;
   right: auto;
 }
-/* line 214, ../../scss/screen.scss */
+/* line 224, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias .content .views-row article {
   overflow: hidden;
   color: #999;
 }
-/* line 230, ../../scss/screen.scss */
+/* line 240, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias .content .views-row article img {
   float: right;
 }
-/* line 238, ../../scss/screen.scss */
+/* line 248, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content {
   padding: 1em;
 }
-/* line 241, ../../scss/screen.scss */
+/* line 251, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content img {
   vertical-align: top;
   -moz-border-radius: 16px;
@@ -256,28 +269,28 @@ body {
   border-radius: 16px;
   width: 100%;
 }
-/* line 247, ../../scss/screen.scss */
+/* line 257, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link {
   font-size: 1.4em;
   font-style: italic;
 }
-/* line 250, ../../scss/screen.scss */
+/* line 260, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link a {
   color: #333;
 }
 
-/* line 267, ../../scss/screen.scss */
+/* line 277, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 272, ../../scss/screen.scss */
+/* line 282, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 280, ../../scss/screen.scss */
+/* line 290, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -286,27 +299,27 @@ body {
   min-height: 80px;
 }
 
-/* line 294, ../../scss/screen.scss */
+/* line 304, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 297, ../../scss/screen.scss */
+/* line 307, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 300, ../../scss/screen.scss */
+/* line 310, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 306, ../../scss/screen.scss */
+/* line 316, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 309, ../../scss/screen.scss */
+/* line 319, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -314,12 +327,12 @@ body {
 /**
  * Event Mini Calendar
  */
-/* line 316, ../../scss/screen.scss */
+/* line 326, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
 
-/* line 320, ../../scss/screen.scss */
+/* line 330, ../../scss/screen.scss */
 .dir-dpto {
   margin-top: 0em;
   padding-top: 3em;
@@ -331,64 +344,64 @@ body {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 328, ../../scss/screen.scss */
+  /* line 338, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 333, ../../scss/screen.scss */
+  /* line 343, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 338, ../../scss/screen.scss */
+  /* line 348, ../../scss/screen.scss */
   .site-header .header-links h1 {
     font-size: 1.4em;
   }
-  /* line 341, ../../scss/screen.scss */
+  /* line 351, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 344, ../../scss/screen.scss */
+  /* line 354, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
-  /* line 349, ../../scss/screen.scss */
+  /* line 359, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
-  /* line 356, ../../scss/screen.scss */
+  /* line 366, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 361, ../../scss/screen.scss */
+  /* line 371, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 364, ../../scss/screen.scss */
+  /* line 374, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
-  /* line 369, ../../scss/screen.scss */
+  /* line 379, ../../scss/screen.scss */
   .site-header nav[role=navigation] a {
     font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 376, ../../scss/screen.scss */
+  /* line 386, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 381, ../../scss/screen.scss */
+  /* line 391, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 384, ../../scss/screen.scss */
+  /* line 394, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }

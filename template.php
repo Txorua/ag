@@ -83,13 +83,14 @@ function _ag_language_list() {
   foreach($links->links as $lang => $info) {
     $name     = $lang;
     $href     = isset($info['href']) ? $info['href'] : '';
-    $li_classes   = array('');
+    $li_classes   = array('lenguage');
     $output .= '<li ';
     // if the global language is that of this item's language, add the active class
     if($lang === $language->language){
-      $output .= 'class="active"';
+      $li_classes[] = 'active';
+      //$output .= 'class="active"';
     }
-    $output .= '>';
+    $output .= 'class="'. implode(" ", $li_classes) .'">';
     $link_classes = array();
     $options = array('attributes' => array('class'    => $link_classes),
       'language' => $info['language'],
