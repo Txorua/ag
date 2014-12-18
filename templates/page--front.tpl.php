@@ -74,13 +74,32 @@
  */
 ?>
 <header class="site-header" role="banner">
+  <div class="top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <ul class="list-inline list-unstyled">
+          <li><a href="#"> <i class="fa fa-sitemap"></i><?php print t('Sitemap'); ?></a></li>
+          <li><a href="/user"> <i class="fa fa-unlock-alt"></i><?php print t('Login'); ?></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-7">
+        <ul class="list-inline list-unstyled pull-right">
+          <li><a href="#"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
+          <li><a href="mailto:udala@example.com"><i class="fa fa-envelope"> </i>udala@example.com</a></li>
+          <li><a href="tel:943123456"><i class="fa fa-phone"></i>+34 943 123 456</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
   <div class="container-fluid header-links">
     <div class="row">
       <div class="col-sm-5 col-md-6 hidden-xs">
         <h1>
         <a href="<?php print $front_page; ?>" title="Home">
-            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="col-sm-4 col-md-3 img-responsive">
-            <span class="col-sm-8 col-md-8 site-name"><?php print $site_name; ?></span>
+            <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="img-responsive">
+            <!--<span class="col-sm-8 col-md-8 site-name"><?php //print $site_name; ?></span>-->
           </a>
         </h1>
       </div>
@@ -112,7 +131,7 @@
           <?php if ($logo): ?>
           <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="visible-xs">
           <?php endif; ?>
-          <?php print $site_name; ?>
+          <?php //print $site_name; ?>
         </span>
       </a>
       <?php endif; ?>

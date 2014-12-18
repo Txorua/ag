@@ -18,6 +18,25 @@ body {
 }
 
 .site-header {
+  .top-bar {
+    background: none repeat scroll 0 0 #f4f4f4;
+    border-bottom: 1px solid #eee;
+      ul {
+        text-transform: uppercase;
+        font-size: 12px;
+        @include rhythm(0,0.5,0.5,0);
+        li {
+          border-left: solid 1px #e9e9e9;
+          a {
+            color: #a2a2a2;
+            i {
+              padding-right: 0.8em;
+              color: #29286a;
+            }
+          }
+        }
+      }
+  }
   .header-links {
     margin-top: 1em;
     padding-top: 0;
@@ -28,8 +47,8 @@ body {
       a {
         color: #666;
         .site-name {
-          position: absolute;
-          bottom: 20%;
+          //position: absolute;
+          //bottom: 20%;
         }
       }
     }
