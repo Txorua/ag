@@ -102,6 +102,11 @@ body {
         }
       }
     }
+    .navbar-collapse {
+      .navbar-nav {
+        margin-left: 0;
+      }
+    }
   }
 }
 
