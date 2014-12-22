@@ -33,7 +33,7 @@ function ag_menu_tree(&$variables) {
 }
 
 function ag_menu_tree__primary(&$variables) {
-  return '<ul class="nav navbar-nav h3" role="menu">' . $variables['tree'] . '</ul>';
+  return '<ul class="nav navbar-nav h4" role="menu">' . $variables['tree'] . '</ul>';
 }
 
 function ag_menu_link(array $variables) {

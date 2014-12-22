@@ -359,10 +359,6 @@ body {
     background-color: white;
   }
 
-  /* line 353, ../../scss/screen.scss */
-  .site-header .header-links h1 {
-    font-size: 1.4em;
-  }
   /* line 356, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
@@ -370,10 +366,6 @@ body {
   /* line 359, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
-  }
-  /* line 364, ../../scss/screen.scss */
-  .site-header nav[role=navigation] a {
-    font-size: 0.8em;
   }
 }
 @media (min-width: 992px) {
@@ -389,10 +381,6 @@ body {
   /* line 379, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
-  }
-  /* line 384, ../../scss/screen.scss */
-  .site-header nav[role=navigation] a {
-    font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
