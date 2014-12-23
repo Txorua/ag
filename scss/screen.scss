@@ -11,6 +11,9 @@ body {
   font-family: open-sans, sans-serif;
   //font-size: 13px;
   //counter-reset: noticia;
+  a {
+    color: #29286a;
+  }
 }
 
 .list-unstyled li.leaf {
@@ -283,6 +286,9 @@ body {
 .site-footer {
   background-color: #29286a;
   color: white;
+  a {
+    color: #9cf;
+  }
 
   .block {
     h2 {
