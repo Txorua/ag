@@ -27,6 +27,7 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;
 stylesheets[all][] = bower_components/bootstrap/dist/css/bootstrap.min.css
+stylesheets[all][] = bower_components/magnific-popup/dist/magnific-popup.css
 stylesheets[screen, projection][] = assets/css/screen.css
 stylesheets[screen, projection][] = assets/css/print.css
 stylesheets-conditional[IE][screen, projection][] = assets/css/ie.css
@@ -36,3 +37,5 @@ stylesheets[all][] = assets/css/zocial-font/zocial.css
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;
 scripts[] = bower_components/bootstrap/dist/js/bootstrap.min.js
+scripts[] = bower_components/imagesloaded/imagesloaded.pkgd.min.js
+scripts[] = bower_components/magnific-popup/dist/jquery.magnific-popup.min.js

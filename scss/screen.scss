@@ -338,6 +338,15 @@ body {
 }
 
 /**
+ * Album de fotos
+ */
+.album-de-fotos {
+  .foto {
+    @include rhythm(1,0,0,1);
+  }
+}
+
+/**
  * Media Queries
  */
 @media (min-width: 480px) {
