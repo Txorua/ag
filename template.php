@@ -73,6 +73,7 @@ function ag_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function _ag_language_list() {
+  $abbrs = array("eu" => "Eus", "es" => "Cas");
   $path = drupal_is_front_page() ? '<front>' : $_GET['q'];
   $links = language_negotiation_get_switch_links('language', $path);
   global $language;
@@ -81,7 +82,8 @@ function _ag_language_list() {
   $output = '';
   $items = array();
   foreach($links->links as $lang => $info) {
-    $name     = $lang;
+    $name     = (isset($abbrs[$lang])) ? $abbrs[$lang] : $lang;
+    //$name     = $lang;
     $href     = isset($info['href']) ? $info['href'] : '';
     $li_classes   = array('lenguage');
     $output .= '<li ';
