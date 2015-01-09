@@ -44,14 +44,13 @@
     </h1>
   </header>
   <?php
-    if($row->field_field_imagen) {
+    if($row->field_field_imagen):
       $uri = $row->field_field_imagen[0]['raw']['uri'];
       $src = image_style_url('medium', $uri);
-    }
   ?>
   <?php //print $variables['fields']['field_imagen']->content; ?>
   <img src="<?php print $src; ?>" class="breadcrumb" typeof="foaf:Image">
+  <?php endif; ?>
   <?php print $variables['fields']['body']->content; ?>
   <?php print $variables['fields']['field_fuente']->content; ?>
 </article>
-
