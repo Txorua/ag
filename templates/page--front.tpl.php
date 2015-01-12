@@ -153,7 +153,6 @@
   <div class="row">
     <div class="col-md-9">
       <a id="main-content"></a>
-      <img src="<?php print base_path() . path_to_theme(); ?>/assets/images/foto_6.jpg" title="" alt="" class="img-responsive banner">
       <main>
         <?php print $messages; ?>
         <?php if (!empty($page['help'])): ?>

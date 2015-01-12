@@ -39,3 +39,4 @@ stylesheets[all][] = assets/css/zocial-font/zocial.css
 scripts[] = bower_components/bootstrap/dist/js/bootstrap.min.js
 scripts[] = bower_components/imagesloaded/imagesloaded.pkgd.min.js
 scripts[] = bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
+scripts[] = assets/js/custom.js

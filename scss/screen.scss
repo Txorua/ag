@@ -273,6 +273,23 @@ body {
       }
     }
   }
+  #block-views-slider-block {
+    @include border-radius(0px);
+    border: none;
+    border-top: none;
+    h2 {
+      display: none;
+    }
+    .content {
+      padding: 0;
+      @include border-radius(9px);
+      @include single-box-shadow(3px,3px,5px);
+      border: solid 1px #777;
+      overflow: hidden;
+      img.banner {
+      }
+    }
+  }
 }
 
 .region.sidebar-first {

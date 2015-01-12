@@ -287,23 +287,47 @@ body a {
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link a {
   color: #333;
 }
+/* line 276, ../../scss/screen.scss */
+.container.main #block-views-slider-block {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  border-top: none;
+}
+/* line 280, ../../scss/screen.scss */
+.container.main #block-views-slider-block h2 {
+  display: none;
+}
+/* line 283, ../../scss/screen.scss */
+.container.main #block-views-slider-block .content {
+  padding: 0;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  -moz-box-shadow: 3px 3px 5px #333333;
+  -webkit-box-shadow: 3px 3px 5px #333333;
+  box-shadow: 3px 3px 5px #333333;
+  border: solid 1px #777;
+  overflow: hidden;
+}
 
-/* line 286, ../../scss/screen.scss */
+/* line 303, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 289, ../../scss/screen.scss */
+/* line 306, ../../scss/screen.scss */
 .site-footer a {
   color: #9cf;
 }
-/* line 294, ../../scss/screen.scss */
+/* line 311, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 302, ../../scss/screen.scss */
+/* line 319, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -312,27 +336,27 @@ body a {
   min-height: 80px;
 }
 
-/* line 316, ../../scss/screen.scss */
+/* line 333, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 319, ../../scss/screen.scss */
+/* line 336, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 322, ../../scss/screen.scss */
+/* line 339, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 328, ../../scss/screen.scss */
+/* line 345, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 331, ../../scss/screen.scss */
+/* line 348, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -340,12 +364,12 @@ body a {
 /**
  * Event Mini Calendar
  */
-/* line 338, ../../scss/screen.scss */
+/* line 355, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
 
-/* line 342, ../../scss/screen.scss */
+/* line 359, ../../scss/screen.scss */
 .dir-dpto {
   margin-top: 0em;
   padding-top: 3em;
@@ -356,7 +380,7 @@ body a {
 /**
  * Album de fotos
  */
-/* line 350, ../../scss/screen.scss */
+/* line 367, ../../scss/screen.scss */
 .album-de-fotos .foto {
   margin-top: 1.5em;
   padding-top: 0em;
@@ -368,52 +392,52 @@ body a {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 359, ../../scss/screen.scss */
+  /* line 376, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 364, ../../scss/screen.scss */
+  /* line 381, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 372, ../../scss/screen.scss */
+  /* line 389, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 375, ../../scss/screen.scss */
+  /* line 392, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
 }
 @media (min-width: 992px) {
-  /* line 387, ../../scss/screen.scss */
+  /* line 404, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 392, ../../scss/screen.scss */
+  /* line 409, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 395, ../../scss/screen.scss */
+  /* line 412, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 407, ../../scss/screen.scss */
+  /* line 424, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 412, ../../scss/screen.scss */
+  /* line 429, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 415, ../../scss/screen.scss */
+  /* line 432, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
