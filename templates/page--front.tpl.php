@@ -86,8 +86,8 @@
       <div class="col-sm-7">
         <ul class="list-inline list-unstyled pull-right">
           <li><a href="#"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
-          <li><a href="mailto:udala@example.com"><i class="fa fa-envelope"> </i>udala@example.com</a></li>
-          <li><a href="tel:943123456"><i class="fa fa-phone"></i>+34 943 123 456</a></li>
+          <li><a href="<?php print $language->language; ?>/contact"><i class="fa fa-envelope"> </i>udala@getaria.org</a></li>
+          <li><a href="tel:943896024"><i class="fa fa-phone"></i>+34 943 896 024</a></li>
           <li>
             <ul class="list-inline list-unstyled">
             <li><i class="fa fa-flag"></i></li>

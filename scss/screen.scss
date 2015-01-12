@@ -11,6 +11,9 @@ body {
   font-family: open-sans, sans-serif;
   //font-size: 13px;
   //counter-reset: noticia;
+  h1,h1,h3,h4,h5,h6 {
+    color: #999;
+  }
   a {
     color: #29286a;
   }
@@ -25,7 +28,7 @@ body {
     background: none repeat scroll 0 0 #f4f4f4;
     border-bottom: 1px solid #eee;
       ul {
-        text-transform: uppercase;
+        text-transform: lowercase;
         font-size: 12px;
         @include rhythm(0,0.5,0.5,0);
         li {
@@ -175,7 +178,7 @@ body {
       .view-header {
         .date-heading {
           h3 {
-            text-transform: lowercase;
+            text-transform: capitalize; 
             a {
               color: #777;
             }
