@@ -27,6 +27,11 @@ function ag_preprocess_page(&$variables) {
   }
 }
 
+function ag_preprocess_node(&$variables) {
+  if ($variables['type'] == 'publicacion') {
+  }
+}
+
 // Menus navbar
 function ag_menu_tree(&$variables) {
   return '<ul class="menu nav">' . $variables['tree'] . '</ul>';
@@ -64,6 +69,7 @@ function ag_menu_link(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
+// Search Form Block
 function ag_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     //dsm($form);
@@ -72,6 +78,36 @@ function ag_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
+// File links
+function ag_file_link($variables) {
+  $file = $variables['file'];
+  $icon_directory = $variables['icon_directory'];
+
+  $url = file_create_url($file->uri);
+  $icon = theme('file_icon', array('file' => $file, 'icon_directory' => $icon_directory));
+
+  // Set options as per anchor format described at
+  // http://microformats.org/wiki/file-format-examples
+  $options = array(
+    'attributes' => array(
+      'type' => $file->filemime . '; length=' . $file->filesize,
+    ),
+  );
+
+  // Use the description as the link text if available.
+  if (empty($file->description)) {
+    $link_text = $file->filename;
+  }
+  else {
+    $link_text = $file->description;
+    $options['attributes']['title'] = check_plain($file->filename);
+    $options['attributes']['target'] = '_blank';
+  }
+
+  return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . '</span>';
+}
+
+// Language links
 function _ag_language_list() {
   $abbrs = array("eu" => "Eus", "es" => "Cas");
   $path = drupal_is_front_page() ? '<front>' : $_GET['q'];
