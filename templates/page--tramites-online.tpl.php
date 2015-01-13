@@ -152,7 +152,7 @@
 <div class="container main">
 <div class="row">
 
-<main>
+<main class="col-xs-12">
   <?php print $messages; ?>
   <?php if (!empty($page['help'])): ?>
     <?php print render($page['help']); ?>
