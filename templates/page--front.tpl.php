@@ -101,24 +101,20 @@
     </div>
   </div>
   </div>
-  <div class="container-fluid header-links">
+  <div class="container-fluid header-links hidden-xs">
     <div class="row">
       <div class="col-sm-5 col-md-6 hidden-xs">
         <h1>
-        <a href="<?php print $front_page; ?>" title="Home">
+          <a href="<?php print $front_page; ?>" title="Home">
             <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" class="img-responsive">
             <!--<span class="col-sm-8 col-md-8 site-name"><?php //print $site_name; ?></span>-->
           </a>
         </h1>
       </div>
-      <div class="col-xs-6 col-sm-4 col-md-3 text-right">
-        <?php print render($page['navigation']); ?>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-3 text-right">
-        <ul class="list-inline list-unstyled h4">
-          
-        </ul>
-      </div>
+      <?php if ($language->language != 'eu'): ?>
+      <div><a href="http://nabigatueuskaraz.com"><img src="<?php print base_path() . path_to_theme() . '/assets/images/nabigatueuskaraz.png'; ?>" class="img-responsive pull-right"></a></div>
+      <?php endif; ?>
+
     </div><!-- end row -->
   </div><!-- end container -->
   <nav class="navbar navbar-default" role="navigation">

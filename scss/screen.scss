@@ -56,8 +56,9 @@ body {
   .header-links {
     margin-top: 1em;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 2em;
     //@include rhythm(0,0.5,0.5,0);
+    background: url(../images/perfil-getaria.png) top center no-repeat;
     h1 {
       @include rhythm(0,0,0,0);
       a {
