@@ -86,7 +86,7 @@
       <div class="col-sm-7">
         <ul class="list-inline list-unstyled pull-right">
           <li><a href="#"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
-          <li><a href="contact"><i class="fa fa-envelope"> </i>udala@getaria.org</a></li>
+          <li><a href="/<?php print $language->language; ?>/contact"><i class="fa fa-envelope"> </i>udala@getaria.org</a></li>
           <li><a href="tel:943896024"><i class="fa fa-phone"></i>+34 943 896 024</a></li>
           <li>
             <ul class="list-inline list-unstyled">
@@ -148,7 +148,7 @@
 <div class="container main">
 <div class="row">
 
-<main class="col-sm-8 col-sm-push-4 col-md-9 col-md-push-3">
+<main class="<?php if (!empty($page['sidebar_first'])) print 'col-sm-8 col-sm-push-4 col-md-9 col-md-push-3'; ?>">
   <?php print $messages; ?>
   <?php if (!empty($page['help'])): ?>
     <?php print render($page['help']); ?>
@@ -180,10 +180,11 @@
     <?php print render($page['after_content']); ?>
   </section>
 </main>
-
+<?php if (!empty($page['sidebar_first'])): ?>
 <aside class="col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
 <?php print render($page['sidebar_first']); ?>
 </aside>
+<?php endif; ?>
 
 
 </div>
