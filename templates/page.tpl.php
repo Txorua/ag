@@ -148,7 +148,7 @@
 <div class="container main">
 <div class="row">
 
-<main class="<?php if (!empty($page['sidebar_first'])) print 'col-sm-8 col-sm-push-4 col-md-9 col-md-push-3'; ?>">
+<main class="<?php (!empty($page['sidebar_first'])) ? print 'col-sm-8 col-sm-push-4 col-md-9 col-md-push-3' : print 'col-xs-12'; ?>">
   <?php print $messages; ?>
   <?php if (!empty($page['help'])): ?>
     <?php print render($page['help']); ?>
