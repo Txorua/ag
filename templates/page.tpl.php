@@ -73,6 +73,13 @@
  * @ingroup themeable
  */
 ?>
+<?php
+  $np = drupal_get_normal_path('content/ayuntamiento', 'es');
+  $pa = (explode('/',$np));
+  $tnid = end($pa);
+  $translations = translation_node_get_translations($tnid);
+  $location_path = drupal_get_path_alias('node/' . $translations[$language->language]->nid, $language->language);
+?>
 <header class="site-header" role="banner">
   <div class="top-bar">
   <div class="container">
@@ -85,7 +92,7 @@
       </div>
       <div class="col-sm-7">
         <ul class="list-inline list-unstyled pull-right">
-          <li><a href="#"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
+          <li><a href="/<?php print $language->language . '/' . $location_path; ?>"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
           <li><a href="/<?php print $language->language; ?>/contact"><i class="fa fa-envelope"> </i>udala@getaria.org</a></li>
           <li><a href="tel:943896024"><i class="fa fa-phone"></i>+34 943 896 024</a></li>
           <li>
