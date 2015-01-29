@@ -86,7 +86,7 @@
     <div class="row">
       <div class="col-sm-5">
         <ul class="list-inline list-unstyled">
-          <li><a href="#"> <i class="fa fa-sitemap"></i><?php print t('Sitemap'); ?></a></li>
+          <li><a href="<?php print $language->language; ?>/content/sitemap"> <i class="fa fa-sitemap"></i><?php print t('Sitemap'); ?></a></li>
           <li><a href="/user"> <i class="fa fa-unlock-alt"></i><?php print t('Login'); ?></a></li>
         </ul>
       </div>
