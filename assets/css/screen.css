@@ -5,27 +5,29 @@
 /* line 10, ../../scss/screen.scss */
 body {
   font-family: open-sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.714285714;
 }
-/* line 14, ../../scss/screen.scss */
+/* line 15, ../../scss/screen.scss */
 body h1, body h1, body h3, body h4, body h5, body h6 {
   color: #999;
 }
-/* line 17, ../../scss/screen.scss */
+/* line 18, ../../scss/screen.scss */
 body a {
   color: #29286a;
 }
 
-/* line 22, ../../scss/screen.scss */
+/* line 23, ../../scss/screen.scss */
 .list-unstyled li.leaf {
   list-style-image: none;
 }
 
-/* line 27, ../../scss/screen.scss */
+/* line 28, ../../scss/screen.scss */
 .site-header .top-bar {
   background: none repeat scroll 0 0 #f4f4f4;
   border-bottom: 1px solid #eee;
 }
-/* line 30, ../../scss/screen.scss */
+/* line 31, ../../scss/screen.scss */
 .site-header .top-bar ul {
   text-transform: lowercase;
   font-size: 12px;
@@ -34,112 +36,112 @@ body a {
   padding-bottom: 0.75em;
   margin-bottom: 0em;
 }
-/* line 34, ../../scss/screen.scss */
+/* line 35, ../../scss/screen.scss */
 .site-header .top-bar ul li {
   border-left: solid 1px #e9e9e9;
 }
-/* line 36, ../../scss/screen.scss */
+/* line 37, ../../scss/screen.scss */
 .site-header .top-bar ul li ul {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 39, ../../scss/screen.scss */
+/* line 40, ../../scss/screen.scss */
 .site-header .top-bar ul li ul i {
   color: #29286a;
 }
-/* line 43, ../../scss/screen.scss */
+/* line 44, ../../scss/screen.scss */
 .site-header .top-bar ul li a {
   color: #a2a2a2;
 }
-/* line 45, ../../scss/screen.scss */
+/* line 46, ../../scss/screen.scss */
 .site-header .top-bar ul li a i {
   padding-right: 0.8em;
   color: #29286a;
 }
-/* line 51, ../../scss/screen.scss */
+/* line 52, ../../scss/screen.scss */
 .site-header .top-bar ul li.lenguage {
   border-left: none;
 }
-/* line 56, ../../scss/screen.scss */
+/* line 57, ../../scss/screen.scss */
 .site-header .header-links {
   margin-top: 1em;
   padding-top: 0;
   padding-bottom: 2em;
   background: url(../images/perfil-getaria.png) top center no-repeat;
 }
-/* line 62, ../../scss/screen.scss */
+/* line 63, ../../scss/screen.scss */
 .site-header .header-links h1 {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0em;
 }
-/* line 64, ../../scss/screen.scss */
+/* line 65, ../../scss/screen.scss */
 .site-header .header-links h1 a {
   color: #666;
 }
-/* line 76, ../../scss/screen.scss */
+/* line 77, ../../scss/screen.scss */
 .site-header .header-links #block-search-form #edit-submit {
   text-transform: lowercase;
 }
-/* line 82, ../../scss/screen.scss */
+/* line 83, ../../scss/screen.scss */
 .site-header nav[role=navigation] {
   background-color: #29286a;
 }
-/* line 84, ../../scss/screen.scss */
+/* line 85, ../../scss/screen.scss */
 .site-header nav[role=navigation] a {
   color: #ccc;
 }
-/* line 86, ../../scss/screen.scss */
+/* line 87, ../../scss/screen.scss */
 .site-header nav[role=navigation] a:hover {
   color: white;
 }
-/* line 92, ../../scss/screen.scss */
+/* line 93, ../../scss/screen.scss */
 .site-header nav[role=navigation] ul[role=menu] li a {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 96, ../../scss/screen.scss */
+/* line 97, ../../scss/screen.scss */
 .site-header nav[role=navigation] ul[role=menu] li a:after {
   content: '\0000a0\0022ee';
   font-weight: bold;
 }
-/* line 104, ../../scss/screen.scss */
+/* line 105, ../../scss/screen.scss */
 .site-header nav[role=navigation] .navbar-header .navbar-brand img {
   margin-top: -15px;
   height: 50px;
   display: inline-block !important;
 }
-/* line 113, ../../scss/screen.scss */
+/* line 114, ../../scss/screen.scss */
 .site-header nav[role=navigation] .navbar-collapse .navbar-nav {
   margin-left: 0;
 }
 
-/* line 120, ../../scss/screen.scss */
+/* line 121, ../../scss/screen.scss */
 .container.main {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-/* line 124, ../../scss/screen.scss */
+/* line 125, ../../scss/screen.scss */
 .container.main article header h1.page-header {
   border-bottom: 0.1em solid #29286a;
 }
-/* line 129, ../../scss/screen.scss */
+/* line 130, ../../scss/screen.scss */
 .container.main img.banner {
   -moz-box-shadow: 3px 3px 5px #333333;
   -webkit-box-shadow: 3px 3px 5px #333333;
   box-shadow: 3px 3px 5px #333333;
 }
-/* line 132, ../../scss/screen.scss */
+/* line 133, ../../scss/screen.scss */
 .container.main .row > div {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 1.5em;
 }
-/* line 135, ../../scss/screen.scss */
+/* line 136, ../../scss/screen.scss */
 .container.main .block {
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -147,7 +149,7 @@ body a {
   border: solid 1px #777;
   border-top: none;
 }
-/* line 139, ../../scss/screen.scss */
+/* line 140, ../../scss/screen.scss */
 .container.main .block h2 {
   font-size: 1.8em;
   background-color: #eee;
@@ -166,15 +168,15 @@ body a {
   margin-bottom: 0em;
   padding-left: 0.5em;
 }
-/* line 150, ../../scss/screen.scss */
+/* line 151, ../../scss/screen.scss */
 .container.main .block .content {
   padding: 2em;
 }
-/* line 159, ../../scss/screen.scss */
+/* line 160, ../../scss/screen.scss */
 .container.main .block-system {
   border: none;
 }
-/* line 161, ../../scss/screen.scss */
+/* line 162, ../../scss/screen.scss */
 .container.main .block-system h2 {
   margin-top: 0em;
   padding-top: 0em;
@@ -187,95 +189,95 @@ body a {
   border: none;
   background-color: white;
 }
-/* line 168, ../../scss/screen.scss */
+/* line 169, ../../scss/screen.scss */
 .container.main .block-system .content {
   padding: 0;
 }
-/* line 174, ../../scss/screen.scss */
+/* line 175, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos h2,
 .container.main #block-views-calendario-block-1 h2 {
   margin-top: 0;
 }
-/* line 177, ../../scss/screen.scss */
+/* line 178, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content,
 .container.main #block-views-calendario-block-1 .content {
   padding: 0;
 }
-/* line 181, ../../scss/screen.scss */
+/* line 182, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-header .date-heading h3,
 .container.main #block-views-calendario-block-1 .content .view-header .date-heading h3 {
   text-transform: capitalize;
 }
-/* line 183, ../../scss/screen.scss */
+/* line 184, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-header .date-heading h3 a,
 .container.main #block-views-calendario-block-1 .content .view-header .date-heading h3 a {
   color: #777;
 }
-/* line 189, ../../scss/screen.scss */
+/* line 190, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content,
 .container.main #block-views-calendario-block-1 .content .view-content {
   padding: 1em;
 }
-/* line 191, ../../scss/screen.scss */
+/* line 192, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content thead,
 .container.main #block-views-calendario-block-1 .content .view-content thead {
   border-bottom: solid 1px #777777;
 }
-/* line 193, ../../scss/screen.scss */
+/* line 194, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content thead th,
 .container.main #block-views-calendario-block-1 .content .view-content thead th {
   border: none;
   background-color: white;
 }
-/* line 199, ../../scss/screen.scss */
+/* line 200, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content tbody a,
 .container.main #block-views-calendario-block-1 .content .view-content tbody a {
   color: #777;
   font-weight: bold;
 }
-/* line 206, ../../scss/screen.scss */
+/* line 207, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .date-nav,
 .container.main #block-views-calendario-block-1 .date-nav {
   margin-bottom: 0;
 }
-/* line 210, ../../scss/screen.scss */
+/* line 211, ../../scss/screen.scss */
 .container.main .date-nav {
   padding-bottom: 0;
   margin-bottom: 1em;
 }
-/* line 214, ../../scss/screen.scss */
+/* line 215, ../../scss/screen.scss */
 .container.main .date-nav .date-heading h3 {
   font-size: 1.2em;
 }
-/* line 219, ../../scss/screen.scss */
+/* line 220, ../../scss/screen.scss */
 .container.main .pager {
   margin-bottom: 0;
 }
-/* line 221, ../../scss/screen.scss */
+/* line 222, ../../scss/screen.scss */
 .container.main .pager li {
   background: none;
   margin-left: 0;
 }
-/* line 225, ../../scss/screen.scss */
+/* line 226, ../../scss/screen.scss */
 .container.main .pager li.date-prev {
   margin-left: 0;
   left: 0;
   right: auto;
 }
-/* line 237, ../../scss/screen.scss */
+/* line 238, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias .content .views-row article {
   overflow: hidden;
   color: #999;
 }
-/* line 253, ../../scss/screen.scss */
+/* line 254, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias .content .views-row article img {
   float: right;
 }
-/* line 261, ../../scss/screen.scss */
+/* line 262, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content {
   padding: 1em;
 }
-/* line 264, ../../scss/screen.scss */
+/* line 265, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content img {
   vertical-align: top;
   -moz-border-radius: 16px;
@@ -283,16 +285,16 @@ body a {
   border-radius: 16px;
   width: 100%;
 }
-/* line 270, ../../scss/screen.scss */
+/* line 271, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link {
   font-size: 1.4em;
   font-style: italic;
 }
-/* line 273, ../../scss/screen.scss */
+/* line 274, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link a {
   color: #333;
 }
-/* line 280, ../../scss/screen.scss */
+/* line 281, ../../scss/screen.scss */
 .container.main #block-views-slider-block {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -300,11 +302,11 @@ body a {
   border: none;
   border-top: none;
 }
-/* line 284, ../../scss/screen.scss */
+/* line 285, ../../scss/screen.scss */
 .container.main #block-views-slider-block h2 {
   display: none;
 }
-/* line 287, ../../scss/screen.scss */
+/* line 288, ../../scss/screen.scss */
 .container.main #block-views-slider-block .content {
   padding: 0;
   -moz-border-radius: 9px;
@@ -317,22 +319,22 @@ body a {
   overflow: hidden;
 }
 
-/* line 307, ../../scss/screen.scss */
+/* line 308, ../../scss/screen.scss */
 .site-footer {
   background-color: #29286a;
   color: white;
 }
-/* line 310, ../../scss/screen.scss */
+/* line 311, ../../scss/screen.scss */
 .site-footer a {
   color: #9cf;
 }
-/* line 315, ../../scss/screen.scss */
+/* line 316, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 323, ../../scss/screen.scss */
+/* line 324, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -341,27 +343,27 @@ body a {
   min-height: 80px;
 }
 
-/* line 337, ../../scss/screen.scss */
+/* line 338, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 340, ../../scss/screen.scss */
+/* line 341, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 343, ../../scss/screen.scss */
+/* line 344, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 349, ../../scss/screen.scss */
+/* line 350, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 352, ../../scss/screen.scss */
+/* line 353, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -369,12 +371,12 @@ body a {
 /**
  * Event Mini Calendar
  */
-/* line 359, ../../scss/screen.scss */
+/* line 360, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
 
-/* line 363, ../../scss/screen.scss */
+/* line 364, ../../scss/screen.scss */
 .dir-dpto {
   margin-top: 0em;
   padding-top: 3em;
@@ -385,7 +387,7 @@ body a {
 /**
  * Album de fotos
  */
-/* line 371, ../../scss/screen.scss */
+/* line 372, ../../scss/screen.scss */
 .album-de-fotos .foto {
   margin-top: 1.5em;
   padding-top: 0em;
@@ -397,52 +399,52 @@ body a {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 380, ../../scss/screen.scss */
+  /* line 381, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 385, ../../scss/screen.scss */
+  /* line 386, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 393, ../../scss/screen.scss */
+  /* line 394, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 396, ../../scss/screen.scss */
+  /* line 397, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
 }
 @media (min-width: 992px) {
-  /* line 408, ../../scss/screen.scss */
+  /* line 409, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 413, ../../scss/screen.scss */
+  /* line 414, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 416, ../../scss/screen.scss */
+  /* line 417, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 428, ../../scss/screen.scss */
+  /* line 429, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 433, ../../scss/screen.scss */
+  /* line 434, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 436, ../../scss/screen.scss */
+  /* line 437, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
