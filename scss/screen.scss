@@ -81,9 +81,9 @@ body {
   }
 
   nav[role=navigation] {
-    background-color: #29286a;
+    background-color: #0088b7;
     a {
-      color: #ccc;
+      color: white;
       &:hover {
         color: white;
       }
@@ -95,7 +95,7 @@ body {
           padding-right: 0;
         }
         a:after {
-          content: '\0000a0\0022ee';
+          //content: '\0000a0\0022ee';
           font-weight: bold;
         }
       }
@@ -306,10 +306,12 @@ body {
 }
 
 .site-footer {
-  background-color: #29286a;
+  //background-color: #29286a;
+  background-color: #0088b7;
   color: white;
   a {
-    color: #9cf;
+    //color: #9cf;
+    color: white;
   }
 
   .block {
