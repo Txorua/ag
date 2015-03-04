@@ -82,6 +82,8 @@ body {
 
   nav[role=navigation] {
     background-color: #0088b7;
+    @include border-radius(0px);
+    border-color: white;
     a {
       color: white;
       &:hover {
@@ -91,8 +93,14 @@ body {
     ul[role=menu] {
       li {
         a {
-          padding-left: 0;
-          padding-right: 0;
+          //padding-left: 0;
+          //padding-right: 0;
+          @media (min-width: 768px) {
+            @include border-top-radius(9px)
+          }
+          &.active {
+            background-color: white;
+          }
         }
         a:after {
           //content: '\0000a0\0022ee';
