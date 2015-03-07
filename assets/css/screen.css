@@ -164,7 +164,7 @@ body a {
 }
 /* line 148, ../../scss/screen.scss */
 .container.main .block h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   background-color: #eee;
   color: #777;
   -moz-border-radius-topleft: 9px;
@@ -174,7 +174,7 @@ body a {
   -webkit-border-top-right-radius: 9px;
   border-top-right-radius: 9px;
   border-top: solid 1px #777;
-  border-bottom: 0.1em solid #29286a;
+  border-bottom: 1px solid #29286a;
   margin-top: 1.5em;
   padding-top: 0.3em;
   padding-bottom: 0em;
