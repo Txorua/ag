@@ -15,10 +15,14 @@ body {
   h1,h1,h3,h4,h5,h6 {
     color: #999;
   }
-  a {
-    color: #29286a;
+  a,
+  a.focus,
+  a.visited,
+  a:hover {
+    color: #0088b7;
   }
 }
+
 
 .list-unstyled li.leaf {
   list-style-image: none;
