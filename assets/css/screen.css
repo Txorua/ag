@@ -355,28 +355,32 @@ body a {
   background-position: top center;
   min-height: 80px;
 }
+/* line 342, ../../scss/screen.scss */
+.site-footer #udala p {
+  margin: 0;
+}
 
-/* line 348, ../../scss/screen.scss */
+/* line 351, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 351, ../../scss/screen.scss */
+/* line 354, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 354, ../../scss/screen.scss */
+/* line 357, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 360, ../../scss/screen.scss */
+/* line 363, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 363, ../../scss/screen.scss */
+/* line 366, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -384,12 +388,12 @@ body a {
 /**
  * Event Mini Calendar
  */
-/* line 370, ../../scss/screen.scss */
+/* line 373, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
 
-/* line 374, ../../scss/screen.scss */
+/* line 377, ../../scss/screen.scss */
 .dir-dpto {
   margin-top: 0em;
   padding-top: 3em;
@@ -400,7 +404,7 @@ body a {
 /**
  * Album de fotos
  */
-/* line 382, ../../scss/screen.scss */
+/* line 385, ../../scss/screen.scss */
 .album-de-fotos .foto {
   margin-top: 1.5em;
   padding-top: 0em;
@@ -412,52 +416,52 @@ body a {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 391, ../../scss/screen.scss */
+  /* line 394, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 396, ../../scss/screen.scss */
+  /* line 399, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 404, ../../scss/screen.scss */
+  /* line 407, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 407, ../../scss/screen.scss */
+  /* line 410, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
 }
 @media (min-width: 992px) {
-  /* line 419, ../../scss/screen.scss */
+  /* line 422, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 424, ../../scss/screen.scss */
+  /* line 427, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 427, ../../scss/screen.scss */
+  /* line 430, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 439, ../../scss/screen.scss */
+  /* line 442, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 444, ../../scss/screen.scss */
+  /* line 447, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 447, ../../scss/screen.scss */
+  /* line 450, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
