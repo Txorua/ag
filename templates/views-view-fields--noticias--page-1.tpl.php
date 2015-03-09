@@ -43,14 +43,14 @@
     </h1>
     <p class="meta"><time title="<?php print date('c', $variables['fields']['created']->raw); ?>" class="h6"><?php print $variables['fields']['created']->content; ?></time></p>
   </header>
-  <div class="col-xs-8"><?php print $variables['fields']['body']->content; ?></div>
+  <div class="col-xs-12 col-sm-8"><?php print $variables['fields']['body']->content; ?></div>
   <?php
     if($row->field_field_imagen):
       $uri = $row->field_field_imagen[0]['raw']['uri'];
       $src = image_style_url('medium', $uri);
   ?>
   <?php //print $variables['fields']['field_imagen']->content; ?>
-  <div class="col-xs-4"><img src="<?php print $src; ?>" class="breadcrumb img-responsive" typeof="foaf:Image"></div>
+  <div class="col-xs-12 col-sm-4"><img src="<?php print $src; ?>" class="breadcrumb img-responsive center-block" typeof="foaf:Image"></div>
   <?php endif; ?>
   <div class="col-xs-12"><?php print $variables['fields']['field_fuente']->content; ?></div>
 </article>
