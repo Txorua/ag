@@ -324,6 +324,9 @@ body {
   a {
     //color: #9cf;
     color: white;
+    &:hover {
+      color: white;
+    }
   }
 
   .block {

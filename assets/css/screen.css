@@ -344,13 +344,17 @@ body a:hover {
 .site-footer a {
   color: white;
 }
-/* line 330, ../../scss/screen.scss */
+/* line 327, ../../scss/screen.scss */
+.site-footer a:hover {
+  color: white;
+}
+/* line 333, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 338, ../../scss/screen.scss */
+/* line 341, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -358,32 +362,32 @@ body a:hover {
   background-position: top center;
   min-height: 80px;
 }
-/* line 346, ../../scss/screen.scss */
+/* line 349, ../../scss/screen.scss */
 .site-footer #udala p {
   margin: 0;
 }
 
-/* line 355, ../../scss/screen.scss */
+/* line 358, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 358, ../../scss/screen.scss */
+/* line 361, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 361, ../../scss/screen.scss */
+/* line 364, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 367, ../../scss/screen.scss */
+/* line 370, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 370, ../../scss/screen.scss */
+/* line 373, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -391,12 +395,12 @@ body a:hover {
 /**
  * Event Mini Calendar
  */
-/* line 377, ../../scss/screen.scss */
+/* line 380, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
 
-/* line 381, ../../scss/screen.scss */
+/* line 384, ../../scss/screen.scss */
 .dir-dpto {
   margin-top: 0em;
   padding-top: 3em;
@@ -407,7 +411,7 @@ body a:hover {
 /**
  * Album de fotos
  */
-/* line 389, ../../scss/screen.scss */
+/* line 392, ../../scss/screen.scss */
 .album-de-fotos .foto {
   margin-top: 1.5em;
   padding-top: 0em;
@@ -419,52 +423,52 @@ body a:hover {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 398, ../../scss/screen.scss */
+  /* line 401, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 403, ../../scss/screen.scss */
+  /* line 406, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 411, ../../scss/screen.scss */
+  /* line 414, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 414, ../../scss/screen.scss */
+  /* line 417, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
 }
 @media (min-width: 992px) {
-  /* line 426, ../../scss/screen.scss */
+  /* line 429, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 431, ../../scss/screen.scss */
+  /* line 434, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 434, ../../scss/screen.scss */
+  /* line 437, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 446, ../../scss/screen.scss */
+  /* line 449, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 451, ../../scss/screen.scss */
+  /* line 454, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 454, ../../scss/screen.scss */
+  /* line 457, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
