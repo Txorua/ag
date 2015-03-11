@@ -8,7 +8,7 @@
 function ag_preprocess_page(&$variables) {
   // Page Suggestions
   if (isset($variables['node'])) {
-    $suggestion = 'page__' . str_replace('_', '--', $variables['node']->type);
+    $suggestion = 'page__' . str_replace('_', '', $variables['node']->type);
     $variables['theme_hook_suggestions'][] = $suggestion;
   }
 

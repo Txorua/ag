@@ -5,6 +5,7 @@
   $translations = translation_node_get_translations($tnid);
   $location_path = drupal_get_path_alias('node/' . $translations[$language->language]->nid, $language->language);
 ?>
+
 <header class="site-header" role="banner">
   <div class="top-bar">
   <div class="container">
@@ -90,53 +91,45 @@
   }
 ?>
 
-<main<?php if ($cols) print ' class="' . $cols . '"'; ?>>
-  <?php print $messages; ?>
-  <?php if (!empty($page['help'])): ?>
-    <?php print render($page['help']); ?>
+  <main<?php if ($cols) print ' class="' . $cols . '"'; ?>>
+    <?php print $messages; ?>
+    <?php if (!empty($page['help'])): ?>
+      <?php print render($page['help']); ?>
+    <?php endif; ?>
+    <?php if (!empty($breadcrumb)): ?>
+      <?php print render($breadcrumb); ?>
+    <?php endif; ?>
+    <article>
+      <header>
+        <?php print render($title_prefix); ?>
+        <?php if (!empty($title)): ?>
+          <h1 class="page-header"><?php print $title; ?></h1>
+        <?php endif; ?>
+        <?php print render($title_suffix); ?>
+      </header>
+      <?php if (!empty($tabs)): ?>
+        <?php print render($tabs); ?>
+      <?php endif; ?>
+      <?php if (!empty($action_links)): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
+    </article>
+  </main>
+
+  <?php if (!empty($page['sidebar_first'])): ?>
+    <aside class="col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+      <?php print render($page['sidebar_first']); ?>
+    </aside>
   <?php endif; ?>
 
-  <section>
-    <?php print render($page['before_content']); ?>
-  </section>
+  <?php if (!empty($page['sidebar_second'])): ?>
+    <aside class="col-sm-4 col-md-3">
+      <?php print render($page['sidebar_second']); ?>
+    </aside>
+  <?php endif; ?>
 
-  <a id="main-content"></a>
-
-  <article>
-    <header>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-      <h1 class="page-header"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-    </header>
-    <?php if (!empty($tabs)): ?>
-      <?php print render($tabs); ?>
-    <?php endif; ?>
-    <?php if (!empty($action_links)): ?>
-      <ul class="action-links"><?php print render($action_links); ?></ul>
-    <?php endif; ?>
-    <?php print render($page['content']); ?>
-  </article>
-  <section>
-    <?php print render($page['after_content']); ?>
-  </section>
-</main>
-
-<?php if (!empty($page['sidebar_first'])): ?>
-<aside class="col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
-<?php print render($page['sidebar_first']); ?>
-</aside>
-<?php endif; ?>
-
-<?php if (!empty($page['sidebar_second'])): ?>
-<aside class="col-sm-4 col-md-3">
-<?php print render($page['sidebar_second']); ?>
-</aside>
-<?php endif; ?>
-
-
-</div>
+  </div>
 </div>
 
 <footer class="site-footer">
