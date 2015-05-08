@@ -9,13 +9,7 @@
   <div class="top-bar">
   <div class="container">
     <div class="row">
-      <div class="col-sm-5">
-        <ul class="list-inline list-unstyled">
-          <li><a href="/<?php print $language->language; ?>/content/sitemap"> <i class="fa fa-sitemap"></i><?php print t('Sitemap'); ?></a></li>
-          <li><a href="/user"> <i class="fa fa-unlock-alt"></i><?php print t('Login'); ?></a></li>
-        </ul>
-      </div>
-      <div class="col-sm-7">
+      <div class="col-xs-7">
         <ul class="list-inline list-unstyled pull-right">
           <li><a href="/<?php print $language->language . '/' . $location_path; ?>"><i class="fa fa-map-marker"></i><?php print t('Location'); ?></a></li>
           <li><a href="/<?php print $language->language; ?>/contact"><i class="fa fa-envelope"> </i>udala@getaria.org</a></li>
