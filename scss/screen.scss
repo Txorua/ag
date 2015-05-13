@@ -209,21 +209,31 @@ body {
           }
         }
         tbody {
-          div.month {
-            text-align: center;
+          td {
+            div.month {
+              @include border-radius(50%);
+              text-align: center;
+              width: 1.8em;
+              margin: 0 auto;
+              display: inline-block;
+            }
           }
           td.today {
-            @include border-radius(50%);
-            background-color: #00b400;
-            color: white;
+            background-color: transparent;
+            div.month {
+              background-color: #00b400;
+              color: white;
+            }
           }
           td.has-events {
-            @include border-radius(50%);
-            background-color: #0088b7;
-          }
-          a {
-            color: white;
-            font-weight: bold;
+            background-color: transparent;
+            div.month {
+              background-color: #0088b7;
+              a {
+                color: white;
+                font-weight: bold;
+              }
+            }
           }
         }
       }

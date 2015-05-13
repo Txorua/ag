@@ -245,77 +245,87 @@ body a:hover {
   border: none;
   background-color: white;
 }
-/* line 212, ../../scss/screen.scss */
-.container.main #block-views-eventos-block-eventos .content .view-content tbody div.month,
-.container.main #block-views-calendario-block-1 .content .view-content tbody div.month {
-  text-align: center;
-}
-/* line 215, ../../scss/screen.scss */
-.container.main #block-views-eventos-block-eventos .content .view-content tbody td.today,
-.container.main #block-views-calendario-block-1 .content .view-content tbody td.today {
+/* line 213, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content tbody td div.month,
+.container.main #block-views-calendario-block-1 .content .view-content tbody td div.month {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+  text-align: center;
+  width: 1.8em;
+  margin: 0 auto;
+  display: inline-block;
+}
+/* line 221, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content tbody td.today,
+.container.main #block-views-calendario-block-1 .content .view-content tbody td.today {
+  background-color: transparent;
+}
+/* line 223, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content tbody td.today div.month,
+.container.main #block-views-calendario-block-1 .content .view-content tbody td.today div.month {
   background-color: #00b400;
   color: white;
 }
-/* line 220, ../../scss/screen.scss */
+/* line 228, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content tbody td.has-events,
 .container.main #block-views-calendario-block-1 .content .view-content tbody td.has-events {
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+  background-color: transparent;
+}
+/* line 230, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content tbody td.has-events div.month,
+.container.main #block-views-calendario-block-1 .content .view-content tbody td.has-events div.month {
   background-color: #0088b7;
 }
-/* line 224, ../../scss/screen.scss */
-.container.main #block-views-eventos-block-eventos .content .view-content tbody a,
-.container.main #block-views-calendario-block-1 .content .view-content tbody a {
+/* line 232, ../../scss/screen.scss */
+.container.main #block-views-eventos-block-eventos .content .view-content tbody td.has-events div.month a,
+.container.main #block-views-calendario-block-1 .content .view-content tbody td.has-events div.month a {
   color: white;
   font-weight: bold;
 }
-/* line 231, ../../scss/screen.scss */
+/* line 241, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .date-nav,
 .container.main #block-views-calendario-block-1 .date-nav {
   margin-bottom: 0;
 }
-/* line 235, ../../scss/screen.scss */
+/* line 245, ../../scss/screen.scss */
 .container.main .date-nav {
   padding-bottom: 0;
   margin-bottom: 1em;
 }
-/* line 239, ../../scss/screen.scss */
+/* line 249, ../../scss/screen.scss */
 .container.main .date-nav .date-heading h3 {
   font-size: 1.2em;
 }
-/* line 244, ../../scss/screen.scss */
+/* line 254, ../../scss/screen.scss */
 .container.main .pager {
   margin-bottom: 0;
 }
-/* line 246, ../../scss/screen.scss */
+/* line 256, ../../scss/screen.scss */
 .container.main .pager li {
   background: none;
   margin-left: 0;
 }
-/* line 250, ../../scss/screen.scss */
+/* line 260, ../../scss/screen.scss */
 .container.main .pager li.date-prev {
   margin-left: 0;
   left: 0;
   right: auto;
 }
-/* line 262, ../../scss/screen.scss */
+/* line 272, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias .content .views-row article {
   overflow: hidden;
   color: #999;
 }
-/* line 278, ../../scss/screen.scss */
+/* line 288, ../../scss/screen.scss */
 .container.main #block-views-noticias-block-noticias .content .views-row article img {
   float: right;
 }
-/* line 286, ../../scss/screen.scss */
+/* line 296, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content {
   padding: 1em;
 }
-/* line 289, ../../scss/screen.scss */
+/* line 299, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content img {
   vertical-align: top;
   -moz-border-radius: 16px;
@@ -323,16 +333,16 @@ body a:hover {
   border-radius: 16px;
   width: 100%;
 }
-/* line 295, ../../scss/screen.scss */
+/* line 305, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link {
   font-size: 1.4em;
   font-style: italic;
 }
-/* line 298, ../../scss/screen.scss */
+/* line 308, ../../scss/screen.scss */
 .container.main #block-views-enlaces-y-links-block .content .view-content div.texto-link a {
   color: #333;
 }
-/* line 305, ../../scss/screen.scss */
+/* line 315, ../../scss/screen.scss */
 .container.main #block-views-slider-block {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -340,11 +350,11 @@ body a:hover {
   border: none;
   border-top: none;
 }
-/* line 309, ../../scss/screen.scss */
+/* line 319, ../../scss/screen.scss */
 .container.main #block-views-slider-block h2 {
   display: none;
 }
-/* line 312, ../../scss/screen.scss */
+/* line 322, ../../scss/screen.scss */
 .container.main #block-views-slider-block .content {
   padding: 0;
   -moz-border-radius: 9px;
@@ -357,28 +367,28 @@ body a:hover {
   overflow: hidden;
 }
 
-/* line 332, ../../scss/screen.scss */
+/* line 342, ../../scss/screen.scss */
 .site-footer {
   background-color: #0088b7;
   background: #0088b7 url(../images/perfil-getaria.svg) no-repeat top center/contain;
   padding-top: 9em;
   color: white;
 }
-/* line 339, ../../scss/screen.scss */
+/* line 349, ../../scss/screen.scss */
 .site-footer a {
   color: white;
 }
-/* line 342, ../../scss/screen.scss */
+/* line 352, ../../scss/screen.scss */
 .site-footer a:hover {
   color: white;
 }
-/* line 348, ../../scss/screen.scss */
+/* line 358, ../../scss/screen.scss */
 .site-footer .block h2 {
   font-style: italic;
   font-size: 1.25em;
   line-height: 1.2em;
 }
-/* line 356, ../../scss/screen.scss */
+/* line 366, ../../scss/screen.scss */
 .site-footer #udala header h1 {
   margin: 0;
   background-image: url(../images/logo-getariako-udala.png);
@@ -386,32 +396,32 @@ body a:hover {
   background-position: top center;
   min-height: 80px;
 }
-/* line 364, ../../scss/screen.scss */
+/* line 374, ../../scss/screen.scss */
 .site-footer #udala p {
   margin: 0;
 }
 
-/* line 373, ../../scss/screen.scss */
+/* line 383, ../../scss/screen.scss */
 .view-actas .view-content h3,
 .view-ordenanzas .view-content h3 {
   display: none;
 }
-/* line 376, ../../scss/screen.scss */
+/* line 386, ../../scss/screen.scss */
 .view-actas .view-content thead,
 .view-ordenanzas .view-content thead {
   display: none;
 }
-/* line 379, ../../scss/screen.scss */
+/* line 389, ../../scss/screen.scss */
 .view-actas .view-content tbody td,
 .view-ordenanzas .view-content tbody td {
   padding: 0 1em;
 }
 
-/* line 385, ../../scss/screen.scss */
+/* line 395, ../../scss/screen.scss */
 .node-publicacion thead {
   display: none;
 }
-/* line 388, ../../scss/screen.scss */
+/* line 398, ../../scss/screen.scss */
 .node-publicacion tbody td {
   padding: 0 1em;
 }
@@ -419,12 +429,12 @@ body a:hover {
 /**
  * Event Mini Calendar
  */
-/* line 395, ../../scss/screen.scss */
+/* line 405, ../../scss/screen.scss */
 .has-events {
   background-color: #97eda0;
 }
 
-/* line 399, ../../scss/screen.scss */
+/* line 409, ../../scss/screen.scss */
 .dir-dpto {
   margin-top: 0em;
   padding-top: 3em;
@@ -435,7 +445,7 @@ body a:hover {
 /**
  * Album de fotos
  */
-/* line 407, ../../scss/screen.scss */
+/* line 417, ../../scss/screen.scss */
 .album-de-fotos .foto {
   margin-top: 1.5em;
   padding-top: 0em;
@@ -447,52 +457,52 @@ body a:hover {
  * Media Queries
  */
 @media (min-width: 480px) {
-  /* line 416, ../../scss/screen.scss */
+  /* line 426, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 }
 @media (min-width: 768px) {
-  /* line 421, ../../scss/screen.scss */
+  /* line 431, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 429, ../../scss/screen.scss */
+  /* line 439, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2em;
   }
-  /* line 432, ../../scss/screen.scss */
+  /* line 442, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2em;
   }
 }
 @media (min-width: 992px) {
-  /* line 444, ../../scss/screen.scss */
+  /* line 454, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 449, ../../scss/screen.scss */
+  /* line 459, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 2.5em;
   }
-  /* line 452, ../../scss/screen.scss */
+  /* line 462, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 2.5em;
   }
 }
 @media (min-width: 1200px) {
-  /* line 464, ../../scss/screen.scss */
+  /* line 474, ../../scss/screen.scss */
   body {
     background-color: white;
   }
 
-  /* line 469, ../../scss/screen.scss */
+  /* line 479, ../../scss/screen.scss */
   .site-header .header-links #block-search-form {
     margin-top: 3.5em;
   }
-  /* line 472, ../../scss/screen.scss */
+  /* line 482, ../../scss/screen.scss */
   .site-header .header-links ul {
     margin-top: 3.5em;
   }
