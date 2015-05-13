@@ -212,6 +212,11 @@ body {
           div.month {
             text-align: center;
           }
+          td.today {
+            @include border-radius(50%);
+            background-color: #00b400;
+            color: white;
+          }
           td.has-events {
             @include border-radius(50%);
             background-color: #0088b7;
