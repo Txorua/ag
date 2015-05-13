@@ -209,8 +209,15 @@ body {
           }
         }
         tbody {
+          div.month {
+            text-align: center;
+          }
+          td.has-events {
+            @include border-radius(50%);
+            background-color: #0088b7;
+          }
           a {
-            color: #777;
+            color: white;
             font-weight: bold;
           }
         }
