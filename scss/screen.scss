@@ -7,6 +7,10 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 
+$dorado: #d3b866;
+$dorado-medio: darken(#d3b866, 20%);
+$dorado-oscuro: darken(#d3b866, 40%);
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -19,7 +23,7 @@ body {
   a.focus,
   a.visited,
   a:hover {
-    color: #0088b7;
+    color: $dorado-oscuro;
   }
 }
 
@@ -85,7 +89,7 @@ body {
   }
 
   nav[role=navigation] {
-    background-color: #0088b7;
+    background-color: $dorado-medio;
     @include border-radius(0px);
     border-color: white;
     a {
@@ -146,15 +150,15 @@ body {
     @include rhythm(0,0,0,1);
   }
   .block {
-    @include border-radius(9px);
+    //@include border-radius(9px);
     border: solid 1px #777;
     border-top: none;
     h2 {
       font-size: 1.5em;
-      background-color: #eee;
-      color: #777;
-      @include border-top-left-radius(9px);
-      @include border-top-right-radius(9px);
+      //background-color: #eee;
+      //color: #777;
+      //@include border-top-left-radius(9px);
+      //@include border-top-right-radius(9px);
       border-top: solid 1px #777;
       border-bottom: 1px solid #29286a;
       @include rhythm(1,0.2,0,0);
@@ -228,7 +232,7 @@ body {
           td.has-events {
             background-color: transparent;
             div.month {
-              background-color: #0088b7;
+              background-color: $dorado-medio;
               a {
                 color: white;
                 font-weight: bold;
@@ -321,7 +325,7 @@ body {
     }
     .content {
       padding: 0;
-      @include border-radius(9px);
+      //@include border-radius(9px);
       @include single-box-shadow(3px,3px,5px);
       border: solid 1px #777;
       overflow: hidden;
@@ -341,8 +345,8 @@ body {
 
 .site-footer {
   //background-color: #29286a;
-  background-color: #0088b7;
-  background: #0088b7 url(../images/perfil-getaria.svg) no-repeat top center / contain;
+  background-color: $dorado-medio;
+  background: $dorado-medio url(../images/perfil-getaria.svg) no-repeat top center / contain;
   padding-top: 9em;
 
   color: white;
