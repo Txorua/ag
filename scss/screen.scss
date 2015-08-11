@@ -9,7 +9,7 @@
 
 $dorado: #d3b866;
 $dorado-medio: darken(#d3b866, 20%);
-$dorado-oscuro: darken(#d3b866, 40%);
+$dorado-oscuro: darken(#d3b866, 30%);
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -89,7 +89,7 @@ body {
   }
 
   nav[role=navigation] {
-    background-color: $dorado-medio;
+    background-color: $dorado-oscuro;
     @include border-radius(0px);
     border-color: white;
     a {
@@ -232,7 +232,7 @@ body {
           td.has-events {
             background-color: transparent;
             div.month {
-              background-color: $dorado-medio;
+              background-color: $dorado-oscuro;
               a {
                 color: white;
                 font-weight: bold;
@@ -345,8 +345,8 @@ body {
 
 .site-footer {
   //background-color: #29286a;
-  background-color: $dorado-medio;
-  background: $dorado-medio url(../images/perfil-getaria.svg) no-repeat top center / contain;
+  background-color: $dorado-oscuro;
+  background: $dorado-oscuro url(../images/perfil-getaria.svg) no-repeat top center / contain;
   padding-top: 9em;
 
   color: white;

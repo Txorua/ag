@@ -17,7 +17,7 @@ body a,
 body a.focus,
 body a.visited,
 body a:hover {
-  color: #554618;
+  color: #7c6624;
 }
 
 /* line 31, ../../scss/screen.scss */
@@ -89,7 +89,7 @@ body a:hover {
 }
 /* line 91, ../../scss/screen.scss */
 .site-header nav[role=navigation] {
-  background-color: #a4872f;
+  background-color: #7c6624;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
@@ -264,7 +264,7 @@ body a:hover {
 /* line 234, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content tbody td.has-events div.month,
 .container.main #block-views-calendario-block-1 .content .view-content tbody td.has-events div.month {
-  background-color: #a4872f;
+  background-color: #7c6624;
 }
 /* line 236, ../../scss/screen.scss */
 .container.main #block-views-eventos-block-eventos .content .view-content tbody td.has-events div.month a,
@@ -355,8 +355,8 @@ body a:hover {
 
 /* line 346, ../../scss/screen.scss */
 .site-footer {
-  background-color: #a4872f;
-  background: #a4872f url(../images/perfil-getaria.svg) no-repeat top center/contain;
+  background-color: #7c6624;
+  background: #7c6624 url(../images/perfil-getaria.svg) no-repeat top center/contain;
   padding-top: 9em;
   color: white;
 }
