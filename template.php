@@ -6,10 +6,21 @@
  */
 
 function ag_preprocess_page(&$variables) {
-  // Page Suggestions
   if (isset($variables['node'])) {
-    $suggestion = 'page__' . str_replace('_', '', $variables['node']->type);
+    // Page Suggestions
+    $node = $variables['node'];
+    $suggestion = 'page__' . str_replace('_', '', $node->type);
     $variables['theme_hook_suggestions'][] = $suggestion;
+
+    // Share icons
+    $tipos = array('noticia');
+    if (in_array($node->type, $tipos)) {
+      $options = array(
+        'scope' => 'footer',
+        'group' => JS_THEME,
+      );
+      drupal_add_js(drupal_get_path('theme','ag') . '/assets/js/sharrre.custom.js');
+    }
   }
 
   // Primary nav
