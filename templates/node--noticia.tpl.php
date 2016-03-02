@@ -35,8 +35,7 @@
     ?>
     <?php endif; ?>
     <?php print render($content); ?>
-
-    <div style="padding: 1em 0;">
-      <div id="sharrre" class="si-share clearfix"></div>
+    <div style="clear: both; padding: 1em 0;">
+      <div id="sharrre" class="si-share"></div>
     </div>
 <?php endif; ?>
