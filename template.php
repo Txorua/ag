@@ -42,7 +42,7 @@ function ag_preprocess_node(&$variables) {
   $node = $variables['node'];
   $tipos = array('noticia','evento');
   if (in_array($node->type, $tipos) && $variables['view_mode'] == 'full') {
-    dsm($node);
+    //dsm($node);
     // Facebook metatags
     // http://www.webomelette.com/drupal-open-graph-meta-tags
     $og_title = array(
