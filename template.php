@@ -13,7 +13,7 @@ function ag_preprocess_page(&$variables) {
     $variables['theme_hook_suggestions'][] = $suggestion;
 
     // Share icons
-    $tipos = array('noticia');
+    $tipos = array('noticia','evento');
     if (in_array($node->type, $tipos)) {
       $options = array(
         'scope' => 'footer',
@@ -39,7 +39,34 @@ function ag_preprocess_page(&$variables) {
 }
 
 function ag_preprocess_node(&$variables) {
-  if ($variables['type'] == 'publicacion') {
+  $node = $variables['node'];
+  $tipos = array('noticia','evento');
+  if (in_array($node->type, $tipos) && $variables['view_mode'] == 'full') {
+    dsm($node);
+    // Facebook metatags
+    // http://www.webomelette.com/drupal-open-graph-meta-tags
+    $og_title = array(
+      '#tag' => 'meta',
+      '#attributes' => array(
+        'property' => 'og:title',
+        'content' => $node->title,
+      ),
+    );
+    drupal_add_html_head($og_title, 'og_title');
+
+    $image     = field_get_items('node',$node,'field_imagen');
+    $image_url = file_create_url($image[0]['uri']);
+    if (!$image) {
+      $image_url =  drupal_get_path('theme','ag') . '/logo.png';
+    }
+    $og_image = array(
+      '#tag' => 'meta',
+      '#attributes' => array(
+        'property' => 'og:image',
+        'content' => $image_url,
+      ),
+    );
+    drupal_add_html_head($og_image, 'og_image');
   }
 }
 
