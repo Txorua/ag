@@ -92,6 +92,7 @@ body {
     background-color: $dorado-oscuro;
     @include border-radius(0px);
     border-color: white;
+    font-size: 11px;
     a {
       color: white;
       &:hover {
@@ -188,7 +189,7 @@ body {
       padding: 0;
     }
   }
-  #block-views-eventos-block-eventos, 
+  #block-views-eventos-block-eventos,
   #block-views-calendario-block-1 {
     h2 {
       margin-top: 0;
@@ -198,7 +199,7 @@ body {
       .view-header {
         .date-heading {
           h3 {
-            text-transform: capitalize; 
+            text-transform: capitalize;
             a {
               color: #777;
             }
@@ -435,7 +436,7 @@ body {
 }
 @media (min-width: 768px) {
   body {
-    background-color: white; 
+    background-color: white;
   }
   .site-header {
     .header-links {
