@@ -94,7 +94,7 @@ body a:hover {
   -webkit-border-radius: 0px;
   border-radius: 0px;
   border-color: white;
-  font-size: 11px;
+  font-size: 14px;
 }
 /* line 96, ../../scss/screen.scss */
 .site-header nav[role=navigation] a {
